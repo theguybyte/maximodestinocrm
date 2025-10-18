@@ -1,0 +1,12 @@
+.elementor-widget-thim-ekits-list-tours {
+    .tours-type-pain {
+        display: grid;
+        grid-template-columns: repeat(var(--thim-tours-columns, 4), 1fr);
+        column-gap: var(--thim-ekits-tours-column-gap, 30px);
+        row-gap: var(--thim-ekits-tours-row-gap, 30px);
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
+}

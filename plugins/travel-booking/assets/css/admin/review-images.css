@@ -1,0 +1,58 @@
+.tour-image-info input {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.tour-image-info button.tour-gallery-add {
+  display: block !important;
+}
+
+.tour-gallery-preview:after {
+  content: '';
+  background-color: transparent;
+  visibility: hidden;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tour-gallery-preview:hover:after {
+  background-color: rgba(0, 0, 0, .4);
+  visibility: visible;
+}
+
+.tour-gallery-preview {
+  display: inline-block;
+  cursor: move;
+  margin: 0 10px 10px 0;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border: solid 3px #ccc;
+  overflow: hidden;
+}
+
+.tour-gallery-remove {
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 5px;
+  color: #fff;
+  z-index: 2;
+}
+
+/*Center img*/
+.tour-gallery-centered {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.tour-gallery-centered img {
+  align-self: center;
+  display: block;
+}

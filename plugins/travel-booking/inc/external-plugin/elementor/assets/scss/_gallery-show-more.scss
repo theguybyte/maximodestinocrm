@@ -1,0 +1,213 @@
+.tours-single-gallery-more-wrap {
+    .gallery-items {
+        display: grid;
+        grid-template-columns: repeat(var(--thim-ekits-gallery-columns, 3), 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: var(--thim-ekits-gallery-column-gap, 24px);
+        grid-row-gap: var(--thim-ekits-gallery-row-gap, 15px);
+        align-items: start;
+        align-content: space-between;
+        justify-items: stretch;
+        justify-content: center;
+        .gallery-item {
+            // grid-area: 1/3/2/3;
+            padding: 0;
+
+            .box-item {
+                position: relative;
+
+                .more-photos-button {
+                    position: absolute;
+                    bottom: 14px;
+                    right: 13px;
+                    height: 44px;
+                    padding: 12px 16px;
+                    border-radius: 200px;
+                    background: #fff;
+                    display: inline-flex;
+                    flex-wrap: nowrap;
+                    gap: 8px;
+                    align-items: center;
+                    color: #1e1e1e;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                border-radius: 16px;
+            }
+
+            &.gallery-item-second {
+                grid-area: 1/1/3/3;
+            }
+
+            &:nth-child(3) {
+                grid-area: 2/3/3/3;
+            }
+        }
+    }
+}
+.fixed-size {
+    .lg-outer {
+        margin: 0 auto;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+
+        .lg-thumb-outer {
+            background-color: transparent;
+        }
+
+        .lg-object {
+            border-radius: 16px;
+        }
+
+        .lg-toolbar {
+            right: 167px;
+            left: auto;
+            position: absolute;
+            top: 0;
+            // height: 100%;
+            .lg-icon {
+                font-size: 40px;
+            }
+
+            .lg-counter {
+                color: #fff;
+                display: inline-block;
+                font-size: 16px;
+                vertical-align: middle;
+                position: absolute;
+                top: 420px;
+                right: 30px;
+                padding: 8px;
+                height: 38px;
+                border-radius: 4px;
+                background: rgba(18, 18, 18, 0.85);
+
+                @media (min-width: 1600px) {
+                    top: 580px;
+                    right: 20px;
+                }
+
+                @media (max-width: 1440px) {
+                    top: 425px;
+                    right: 20px;
+                }
+            }
+        }
+
+        .lg-prev {
+            left: 127px;
+        }
+
+        .lg-next {
+            right: 127px;
+        }
+
+        .lg-prev,
+        .lg-next {
+            border-radius: 200px;
+            background-color: #fff;
+
+            &:hover {
+                color: #121212;
+            }
+        }
+
+        .lg-thumb-item {
+            border: 2px solid transparent;
+
+            &.active,
+            &:hover {
+                border-color: #fff;
+            }
+        }
+        .lg-inner {
+            overflow: hidden;
+        }
+    }
+    .lg-backdrop {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media (min-width: 1604px) {
+    .fixed-size {
+        .lg-outer {
+            .lg-prev {
+                left: 67px;
+            }
+            .lg-next {
+                right: 67px;
+            }
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .fixed-size {
+        .lg-outer {
+            .lg-toolbar {
+                right: 0px;
+            }
+            .lg-prev {
+                left: -65px;
+            }
+            .lg-next {
+                right: -65px;
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .fixed-size {
+        .lg-outer {
+            .lg-toolbar {
+                right: 0px;
+            }
+            .lg-prev {
+                display: none;
+            }
+            .lg-next {
+                display: none;
+            }
+            .lg-counter {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 880px) {
+    .fixed-size {
+        .lg-outer {
+            transform: translate(-50%, -29%);
+            .lg {
+                height: 60% !important;
+            }
+        }
+    }
+}
+@media (max-width: 766px) {
+    .fixed-size {
+        .lg-outer {
+            transform: translate(-50%, -16%);
+            .lg {
+                height: 40% !important;
+            }
+        }
+    }
+    .elementor-widget-thim-ekits-tours-gallery-show-more {
+        .gallery-items {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            .gallery-item {
+                display: none;
+                &:nth-child(3) {
+                    grid-area: 1;
+                    display: block !important;
+                }
+            }
+        }
+    }
+}

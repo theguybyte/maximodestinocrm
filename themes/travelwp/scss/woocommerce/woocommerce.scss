@@ -1,0 +1,263 @@
+.woocommerce,
+.woocommerce-page {
+	.star-rating span {
+		color: #ffb300;
+	}
+	.star-rating:before {
+		color: #ffb300;
+	}
+
+	ul.products {
+		&.wrapper-tours-slider {
+			margin: 0 -15px;
+			.item-tour {
+				margin-bottom: 30px;
+			}
+			li.product {
+				a img {
+					display: inline-block;
+					margin: 0;
+				}
+				.post_images span.price {
+					display: inline-block;
+					color: #333;
+					font-size: 14px;
+					font-weight: 700;
+					margin: 0;
+					del {
+						font-size: 100%;
+						opacity: 1;
+						display: inline-block;
+					}
+				}
+				.star-rating {
+					font-size: 1em;
+				}
+			}
+		}
+	}
+	div.product form.cart {
+		margin-top: 20px;
+	}
+	.woocommerce-result-count {
+		margin-top: 15px;
+		float: left;
+	}
+	.woocommerce-ordering {
+		margin-bottom: 25px;
+		float: right;
+		select {
+			// padding:        6px 10px;
+			// vertical-align: top;
+			// outline:        0;
+			// position:       relative;
+			// width:          100%;
+			// height:         40px;
+			// color:          #333;
+			// border-radius:  0;
+			// line-height:    24px;
+			// @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
+			height: 40px;
+			padding: 4px 16px 4px 19px;
+			background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxNiAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ikljb24iPgo8cGF0aCBpZD0iVmVjdG9yIiBkPSJNNCA2LjVMOCAxMC41TDEyIDYuNSIgc3Ryb2tlPSIjNDQ0NDQ0IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L2c+Cjwvc3ZnPgo=) !important;
+			background-repeat: no-repeat !important;
+			background-position-x: 93% !important;
+			background-position-y: 10px !important;
+			background-size: 16px 20px !important;
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			appearance: none;
+			width: 226px;
+			color: #121212;
+		}
+	}
+}
+
+.woocommerce-MyAccount-navigation {
+	ul {
+		margin-left: 25px;
+	}
+}
+
+/**
+* Styling begins
+*/
+.woocommerce,
+.woocommerce-page {
+	/**
+	* General layout styles
+	*/
+	.col2-set {
+		width: 100%;
+		@include clearfix();
+		.col-1 {
+			float: left;
+			width: 48%;
+		}
+		.col-2 {
+			float: right;
+			width: 48%;
+		}
+	}
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	/**
+	 * Product page
+	 */
+	div.product,
+	#content div.product {
+		.woocommerce-tabs {
+			clear: both;
+			margin-bottom: 50px;
+		}
+	}
+
+	.woocommerce-result-count {
+		float: left;
+	}
+	.woocommerce-ordering {
+		float: right;
+	}
+
+	/**
+	 * Cart page
+	 */
+	table.cart,
+	#content table.cart {
+		img {
+			height: auto;
+		}
+
+		td.actions {
+			text-align: right;
+
+			.input-text {
+				width: 80px;
+			}
+
+			.coupon {
+				float: left;
+
+				label {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.cart-collaterals {
+		width: 100%;
+		@include clearfix();
+		.related {
+			width: 30.75%;
+			float: left;
+		}
+
+		.cross-sells {
+			width: 48%;
+			float: left;
+
+			ul.products {
+				float: none;
+
+				li {
+					width: 48%;
+				}
+			}
+		}
+
+		.shipping_calculator {
+			width: 48%;
+
+			clear: right;
+			float: right;
+			@include clearfix();
+			.col2-set {
+				.col-1,
+				.col-2 {
+					width: 47%;
+				}
+			}
+		}
+
+		.cart_totals {
+			float: right;
+			width: 48%;
+		}
+	}
+	/**
+	 * Forms
+	 */
+	form {
+		.form-row {
+			@include clearfix();
+
+			label {
+				display: block;
+
+				&.checkbox {
+					display: inline;
+				}
+			}
+
+			select {
+				width: 100%;
+			}
+
+			.input-text {
+				box-sizing: border-box;
+				width: 100%;
+			}
+		}
+
+		.form-row-first,
+		.form-row-last {
+			float: left;
+			width: 47%;
+			overflow: visible;
+		}
+
+		.form-row-last {
+			float: right;
+		}
+
+		.form-row-wide {
+			clear: both;
+		}
+	}
+
+	#payment {
+		.form-row {
+			select {
+				width: auto;
+			}
+		}
+
+		.wc-terms-and-conditions,
+		.terms {
+			text-align: left;
+			padding: 0 1em 0 0;
+			float: left;
+		}
+
+		#place_order {
+			float: right;
+		}
+	}
+}
+
+.woocommerce-account {
+	.woocommerce-MyAccount-navigation {
+		float: left;
+		width: 30%;
+	}
+
+	.woocommerce-MyAccount-content {
+		float: right;
+		width: 68%;
+	}
+}

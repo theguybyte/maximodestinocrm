@@ -1,0 +1,93 @@
+.travelwp-filter-form {
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.filter-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.filter-col label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.filter-col label .material-icons {
+    font-size: 18px;
+    color: #666;
+}
+
+.travelwp-select2 {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 28px;
+    color: #333;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 43px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #999;
+}
+
+.filter-search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 45px;
+    padding: 0 30px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+}
+
+.filter-search-btn:hover {
+    background: #0052a3;
+}
+
+.filter-search-btn .material-icons {
+    font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .filter-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .travelwp-filter-form {
+        padding: 20px;
+    }
+    
+    .filter-search-btn {
+        width: 100%;
+    }
+}

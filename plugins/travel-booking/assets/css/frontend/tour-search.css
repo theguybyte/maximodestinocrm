@@ -1,0 +1,31 @@
+.plugin-clear_button.form-select .clear-button, .plugin-clear_button.single .clear-button {
+    right: 8px !important;
+}
+
+.tour-search-field.duration ul, .tour-search-field.rating ul {
+    padding-left: 0;
+}
+
+.tour-search-field.duration ul li, .tour-search-field.rating li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.tour-search-field.duration ul li, .tour-search-field.rating li .star {
+    margin-left: 5px;
+}
+
+.tour-search-field.rating li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.tour-search-field.rating li .star {
+    display: flex;
+    align-items: center;
+}
+
+.tour-search-field .show-price{
+    display: flex;
+}

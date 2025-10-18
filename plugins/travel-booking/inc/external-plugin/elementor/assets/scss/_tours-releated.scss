@@ -1,0 +1,13 @@
+.thim-ekit-single-tours__related {
+    .thim-ekits-tours__related__inner {
+        &.tours {
+            display: grid;
+            grid-template-columns: repeat(var(--grid-template-columns-related-tours, 4), 1fr);
+            column-gap: var(--thim-ekits-related-tour-column-gap, 30px);
+            row-gap: var(--thim-ekits-related-tour-row-gap, 30px);
+        }
+        li {
+            list-style: none;
+        }
+    }
+}

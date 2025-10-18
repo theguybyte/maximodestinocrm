@@ -1,0 +1,73 @@
+.elementor-widget-thim-ekits-tours-faqs .single-tour-faq {
+    ul {
+        padding: 0;
+        margin: 0;
+        .tour-faq-wrapper {
+            list-style: none;
+            width: 100%;
+            .tour-faq-title {
+                cursor: pointer;
+                position: relative;
+                width: 100%;
+                display: block;
+                & + .tour-faq-content {
+                    display: none;
+                    transform: all 2s ease;
+                }
+                &.is-open + .tour-faq-content {
+                    display: block;
+                    transform: all 2s ease;
+                }
+                // &.faq-icon-active {
+                //     position: relative;
+                //     &::after {
+                //         content: "\f107";
+                //         position: absolute;
+                //         top: 50%;
+                //         right: 0;
+                //         transform: translate(-50%, -50%);
+                //         font-family: thim-ekits !important;
+                //         font-style: normal;
+                //         font-weight: 400;
+                //         font-variant: normal;
+                //         text-transform: none;
+                //         line-height: 1;
+                //         font-size: 11px;
+                //     }
+                //     &.is-open {
+                //         &::after {
+                //             content: "\f106";
+                //         }
+                //     }
+                // }
+            }
+            &.accordion-section {
+                border: 1px solid #d4d4d4;
+                overflow: hidden;
+                &:not(:first-child) {
+                    margin-top: -1px;
+                }
+                .accordion-title {
+                    padding: 15px 20px;
+                    line-height: 1.3em;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 0;
+                    .accordion-icon-closed {
+                        display: none;
+                    }
+                    &.is-open {
+                        .accordion-icon-closed {
+                            display: block;
+                        }
+                        .accordion-icon-opened {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2591 @@
+# Copyright (C) 2025 Physcode
+# This file is distributed under the same license as the Travel booking plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel booking 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/travel-booking\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-10T04:35:46+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: travel-booking\n"
+
+#. Plugin Name of the plugin
+#: travel-booking.php
+msgid "Travel booking"
+msgstr ""
+
+#. Description of the plugin
+#: travel-booking.php
+msgid "Option for Tour"
+msgstr ""
+
+#. Author of the plugin
+#: travel-booking.php
+msgid "Physcode"
+msgstr ""
+
+#. Author URI of the plugin
+#: travel-booking.php
+msgid "http://physcode.com/"
+msgstr ""
+
+#: inc/class-travel-ajax.php:216
+msgid "Someone in "
+msgstr ""
+
+#: inc/class-travel-ajax.php:216
+msgid " purchased a "
+msgstr ""
+
+#: inc/class-travel-cart.php:39
+#: inc/class-travel-cart.php:47
+#: inc/class-travel-checkout.php:96
+#: inc/class-travel-checkout.php:104
+#: inc/class-travel-order.php:196
+#: inc/class-travel-order.php:201
+msgid "Check in"
+msgstr ""
+
+#: inc/class-travel-cart.php:40
+#: inc/class-travel-cart.php:48
+#: inc/class-travel-checkout.php:97
+#: inc/class-travel-checkout.php:105
+#: inc/class-travel-order.php:197
+#: inc/class-travel-order.php:202
+msgid "Check out"
+msgstr ""
+
+#: inc/class-travel-cart.php:81
+#: inc/class-travel-order.php:108
+#: templates/checkout/personal-information.php:37
+msgid "Adult"
+msgstr ""
+
+#: inc/class-travel-cart.php:82
+#: inc/class-travel-order.php:133
+msgid "Child"
+msgstr ""
+
+#: inc/class-travel-checkout.php:111
+#: inc/class-travel-order.php:208
+#: templates/cart.php:113
+#: templates/checkout/order-details-item.php:44
+msgid "Adults"
+msgstr ""
+
+#: inc/class-travel-checkout.php:112
+#: inc/class-travel-order.php:209
+#: templates/cart.php:115
+#: templates/checkout/order-details-item.php:45
+#: templates/checkout/personal-information.php:77
+#: templates/single-tour/booking.php:224
+msgid "Children"
+msgstr ""
+
+#: inc/class-travel-checkout.php:114
+#: templates/checkout/order-details-item.php:47
+msgid "Tickets"
+msgstr ""
+
+#: inc/class-travel-faq.php:23
+#: inc/class-travel-hightlight.php:23
+#: inc/class-travel-variation.php:60
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-code.php:32
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-count-booking.php:33
+#: inc/external-plugin/elementor/widgets/global/attributes.php:332
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:86
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:275
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:61
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:126
+#: templates/admin/settings/personal-information.php:16
+msgid "Label"
+msgstr ""
+
+#: inc/class-travel-faq.php:27
+#: inc/external-plugin/elementor/widgets/global/attributes.php:45
+#: inc/external-plugin/elementor/widgets/global/attributes.php:290
+#: inc/external-plugin/elementor/widgets/global/attributes.php:497
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:42
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:48
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:554
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:44
+msgid "Content"
+msgstr ""
+
+#: inc/class-travel-faq.php:36
+#: inc/class-travel-review-tour.php:124
+#: inc/external-plugin/elementor/widgets/global/attributes.php:288
+#: inc/external-plugin/elementor/widgets/global/attributes.php:545
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:233
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:55
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:536
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:169
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:112
+msgid "Title"
+msgstr ""
+
+#: inc/class-travel-hightlight.php:32
+#: inc/external-plugin/elementor/widgets/global/attributes.php:862
+#: inc/external-plugin/elementor/widgets/global/attributes.php:869
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:563
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:75
+msgid "Image"
+msgstr ""
+
+#: inc/class-travel-order.php:88
+#: templates/checkout/personal-information.php:24
+msgid "Personal Information"
+msgstr ""
+
+#: inc/class-travel-order.php:211
+msgid "Ticket"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:133
+msgid "Images"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:320
+msgid "Write a review"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:327
+msgid "Rate your experience *"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:344
+msgid "Name *"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:348
+msgid "Email *"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:356
+msgid "Leave a review *"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:361
+msgid "Give your review a title *"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:370
+msgid "Uploads up to %s image"
+msgid_plural "Upload up to %s images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-travel-review-tour.php:378
+msgid "Upload"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:388
+msgid "Send"
+msgstr ""
+
+#: inc/class-travel-review-tour.php:420
+msgid "Tour review popup is disabled."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:425
+msgid "You must log in to submit a review."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:431
+msgid "The product id is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:435
+msgid "The rating is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:439
+msgid "The rating is invalid."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:449
+msgid "The name is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:453
+msgid "The email is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:457
+msgid "The email is invalid."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:469
+msgid "You have already submitted a review before."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:473
+msgid "The review content is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:477
+msgid "The review title is required."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:514
+msgid "Could not create review."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:562
+msgid "Your review is awaiting approval."
+msgstr ""
+
+#: inc/class-travel-review-tour.php:568
+msgid "Submit review successfully."
+msgstr ""
+
+#: inc/class-travel-settings.php:71
+#: inc/class-travel-settings.php:258
+msgid "Tours Page"
+msgstr ""
+
+#: inc/class-travel-settings.php:78
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:38
+#: inc/product-type-tour.php:38
+msgid "Tours"
+msgstr ""
+
+#: inc/class-travel-settings.php:96
+msgid "Settings search tours"
+msgstr ""
+
+#: inc/class-travel-settings.php:102
+msgid "Search by attribute"
+msgstr ""
+
+#: inc/class-travel-settings.php:103
+msgid "Search tour by attribute set on Woocommerce"
+msgstr ""
+
+#: inc/class-travel-settings.php:118
+#: templates/single-tour/product-reviews.php:35
+msgid "Review"
+msgstr ""
+
+#: inc/class-travel-settings.php:124
+msgid "Enable Tour Review Popup"
+msgstr ""
+
+#: inc/class-travel-settings.php:125
+msgid "Enable tour review popup"
+msgstr ""
+
+#: inc/class-travel-settings.php:131
+msgid "Require Login"
+msgstr ""
+
+#: inc/class-travel-settings.php:132
+msgid "Require login to submit a review"
+msgstr ""
+
+#: inc/class-travel-settings.php:138
+msgid "Require Approved by Admin"
+msgstr ""
+
+#: inc/class-travel-settings.php:139
+msgid "Review must be manually approved by Admin"
+msgstr ""
+
+#: inc/class-travel-settings.php:145
+#: inc/class-travel-settings.php:146
+msgid "Maximum Images"
+msgstr ""
+
+#: inc/class-travel-settings.php:155
+msgid "Maximum File Size (KB)"
+msgstr ""
+
+#: inc/class-travel-settings.php:156
+msgid "Maximum File Size"
+msgstr ""
+
+#: inc/class-travel-settings.php:165
+msgid "Enable Ajax"
+msgstr ""
+
+#: inc/class-travel-settings.php:166
+msgid "Enable ajax sort and filter"
+msgstr ""
+
+#: inc/class-travel-settings.php:172
+msgid "Weather API key"
+msgstr ""
+
+#: inc/class-travel-settings.php:173
+msgid "Find your API key"
+msgstr ""
+
+#: inc/class-travel-settings.php:186
+msgid "Settings permalink tours"
+msgstr ""
+
+#: inc/class-travel-settings.php:192
+msgid "Tour category base"
+msgstr ""
+
+#: inc/class-travel-settings.php:206
+msgid "Setting Personal information"
+msgstr ""
+
+#: inc/class-travel-settings.php:212
+#: templates/admin/settings/personal-information.php:20
+msgid "Enable"
+msgstr ""
+
+#: inc/class-travel-settings.php:218
+msgid "Tours Personal Information"
+msgstr ""
+
+#: inc/class-travel-settings.php:235
+#: inc/class-travel-settings.php:245
+msgid "View Page"
+msgstr ""
+
+#: inc/class-travel-settings.php:252
+msgid "Tour Pages"
+msgstr ""
+
+#: inc/class-travel-settings.php:265
+msgid "This sets the base page of your tour - this is where your tour archive will be."
+msgstr ""
+
+#: inc/class-travel-settings.php:268
+msgid "Redirect to page after Booking tour"
+msgstr ""
+
+#: inc/class-travel-settings.php:278
+msgid "Location Options"
+msgstr ""
+
+#: inc/class-travel-settings.php:279
+msgid "Use google Map API or google map iframe"
+msgstr ""
+
+#: inc/class-travel-settings.php:284
+#: inc/class-travel-settings.php:290
+msgid "Google API Key"
+msgstr ""
+
+#: inc/class-travel-settings.php:285
+msgid "Google Map iframe"
+msgstr ""
+
+#: inc/class-travel-settings.php:291
+msgid "Use show google map in tab Location of single tour"
+msgstr ""
+
+#: inc/class-travel-settings.php:292
+msgid "How to get API Key https://developers.google.com/maps/documentation/javascript/get-api-key"
+msgstr ""
+
+#: inc/class-travel-settings.php:299
+msgid "Separate Ticket for Adult, Children"
+msgstr ""
+
+#: inc/class-travel-settings.php:312
+msgid "Price percent child/adult (%)"
+msgstr ""
+
+#: inc/class-travel-settings.php:314
+msgid "If you want set price children for each Tour, You can set set value Price Child on Tour when \"Show number adults and children\" enable"
+msgstr ""
+
+#: inc/class-travel-settings.php:321
+msgid "Date format"
+msgstr ""
+
+#: inc/class-travel-settings.php:353
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:43
+msgid "General"
+msgstr ""
+
+#: inc/class-travel-settings.php:354
+msgid "Search Tours"
+msgstr ""
+
+#: inc/class-travel-settings.php:355
+#: inc/external-plugin/elementor/modules/single-tour/class-init.php:13
+msgid "Single Tour"
+msgstr ""
+
+#: inc/class-travel-settings.php:356
+msgid "Permalink Tours"
+msgstr ""
+
+#: inc/class-travel-settings.php:357
+msgid "Travel Personal Information"
+msgstr ""
+
+#: inc/class-travel-settings.php:402
+msgid "Select all"
+msgstr ""
+
+#: inc/class-travel-settings.php:403
+msgid "Select none"
+msgstr ""
+
+#: inc/class-travel-settings.php:437
+msgid "Open the settings page for this plugin"
+msgstr ""
+
+#: inc/class-travel-settings.php:437
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:40
+msgid "Settings"
+msgstr ""
+
+#: inc/class-travel-sidebar.php:20
+msgid "Sidebar Tours"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:95
+msgid "Regular price"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:101
+msgid "Sale price"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:107
+msgid "Child price"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:113
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:49
+#: inc/widgets/class-travel-widgets.php:276
+msgid "Tour Code"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:120
+msgid "Max number ticket (adult) per booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:123
+#: inc/class-travel-tab-tour.php:135
+#: inc/class-travel-tab-tour.php:141
+msgid "Set empty for no limit"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:126
+msgid "Min number ticket (adult) per booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:129
+msgid "min required = 1"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:132
+msgid "Max number children per booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:138
+msgid "Min number children per booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:144
+msgid "Show only form send enquiry"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:159
+msgid "Booking starts after day"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:163
+msgid "Leave 0 for no limit"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:166
+msgid "Fixed duration"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:173
+msgid "Set No, customer can choose date check out"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:176
+msgid "Duration Text"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:180
+msgid "Only for displaying as tour information."
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:183
+msgid "Duration (Days)"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:187
+msgid "Ex: Fill \"5\" for five days (Only Number is Allowed)"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:199
+msgid "Max year enable"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:208
+#: inc/class-travel-tab-tour.php:216
+msgid "Disable Dates"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:231
+msgid "Set Price for Dates&nbsp;("
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:244
+#: templates/admin/metabox-tour-group-discount.php:70
+msgid "Enable group discount"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:251
+msgid "Ex: if you create 2 discount boxes, and for the first box, you set up 5 customer with 10% discount and for another box, 10 customer with 20% discount. When customers book smaller than 10 travellers, they will get 10% off. However, if they book for 10, 11, 12 ( and so on ) customer, they will get 20% off."
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:257
+#: templates/admin/metabox-tour-group-discount.php:77
+msgid "Text Discount Form Booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:271
+#: inc/tb-get-template.php:344
+msgid "Language"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:277
+#: inc/tb-get-template.php:351
+msgid "Transport"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:283
+#: inc/tb-get-template.php:358
+msgid "Accommodation"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:289
+#: inc/tb-get-template.php:365
+msgid "Meals"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:295
+msgid "Group size"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:307
+msgid "Tour Booking"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:313
+msgid "Tour Infomation"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:319
+msgid "Tour Variations"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:326
+msgid "Dates and Price"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:333
+msgid "Tour Tabs"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:340
+#: templates/single-tour/booking.php:256
+msgid "Group discount"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:346
+msgid "Tour FAQ"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:461
+msgid "Disable all dates"
+msgstr ""
+
+#: inc/class-travel-tab-tour.php:465
+msgid "Enable all dates"
+msgstr ""
+
+#: inc/class-travel-tour-search.php:41
+msgid "Duration:"
+msgstr ""
+
+#: inc/class-travel-tour-search.php:42
+msgid "Price:"
+msgstr ""
+
+#: inc/class-travel-tour-type-meta.php:33
+#: inc/external-plugin/elementor/widgets/global/attributes.php:765
+#: inc/external-plugin/elementor/widgets/global/attributes.php:819
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1284
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:119
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:374
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:432
+msgid "Text Color"
+msgstr ""
+
+#: inc/class-travel-tour-type-meta.php:41
+#: inc/external-plugin/elementor/widgets/global/attributes.php:444
+#: inc/external-plugin/elementor/widgets/global/attributes.php:777
+#: inc/external-plugin/elementor/widgets/global/attributes.php:830
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:212
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:265
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:494
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:525
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:556
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:706
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:737
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:768
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:163
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:204
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:197
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:400
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:443
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:492
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:917
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:948
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:979
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:386
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:443
+msgid "Background Color"
+msgstr ""
+
+#: inc/class-travel-url.php:184
+msgid "tours"
+msgstr ""
+
+#: inc/class-travel-url.php:374
+msgid "View Tours"
+msgstr ""
+
+#: inc/class-travel-utility.php:22
+msgid "January"
+msgstr ""
+
+#: inc/class-travel-utility.php:23
+msgid "February"
+msgstr ""
+
+#: inc/class-travel-utility.php:24
+msgid "March"
+msgstr ""
+
+#: inc/class-travel-utility.php:25
+msgid "April"
+msgstr ""
+
+#: inc/class-travel-utility.php:26
+msgid "May"
+msgstr ""
+
+#: inc/class-travel-utility.php:27
+msgid "June"
+msgstr ""
+
+#: inc/class-travel-utility.php:28
+msgid "July"
+msgstr ""
+
+#: inc/class-travel-utility.php:29
+msgid "August"
+msgstr ""
+
+#: inc/class-travel-utility.php:30
+msgid "September"
+msgstr ""
+
+#: inc/class-travel-utility.php:31
+msgid "October"
+msgstr ""
+
+#: inc/class-travel-utility.php:32
+msgid "November"
+msgstr ""
+
+#: inc/class-travel-utility.php:33
+msgid "December"
+msgstr ""
+
+#: inc/class-travel-utility.php:40
+msgid "Monday"
+msgstr ""
+
+#: inc/class-travel-utility.php:41
+msgid "Tuesday"
+msgstr ""
+
+#: inc/class-travel-utility.php:42
+msgid "Wednesday"
+msgstr ""
+
+#: inc/class-travel-utility.php:43
+msgid "Thursday"
+msgstr ""
+
+#: inc/class-travel-utility.php:44
+msgid "Friday"
+msgstr ""
+
+#: inc/class-travel-utility.php:45
+msgid "Saturday"
+msgstr ""
+
+#: inc/class-travel-utility.php:46
+msgid "Sunday"
+msgstr ""
+
+#: inc/class-travel-utility.php:190
+#: inc/class-travel-utility.php:302
+msgid "Select Image"
+msgstr ""
+
+#: inc/class-travel-variation.php:23
+msgid "Label Variation"
+msgstr ""
+
+#: inc/class-travel-variation.php:27
+msgid "Enable item"
+msgstr ""
+
+#: inc/class-travel-variation.php:34
+msgid "Type Variation"
+msgstr ""
+
+#: inc/class-travel-variation.php:43
+msgid "Set price or Only show"
+msgstr ""
+
+#: inc/class-travel-variation.php:50
+#: templates/admin/settings/personal-information.php:36
+msgid "Required"
+msgstr ""
+
+#: inc/class-travel-variation.php:64
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:126
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:75
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:95
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:113
+#: templates/cart.php:26
+#: templates/single-tour/price.php:27
+msgid "Price"
+msgstr ""
+
+#: inc/class-travel-variation.php:68
+#: inc/tb-get-template.php:181
+#: templates/admin/metabox-tour-group-discount.php:33
+msgid "Description"
+msgstr ""
+
+#: inc/class-travel-variation.php:78
+msgid "Enable tour variation"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:46
+#: inc/tb-get-template.php:196
+#: templates/admin/metabox-tour-data.php:18
+msgid "Location"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:47
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:73
+msgid "Duration"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:48
+#: inc/tb-get-template.php:188
+#: templates/admin/metabox-tour-data.php:17
+msgid "Itinerary"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:50
+msgid "Tour Language"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:51
+msgid "Tour Transport"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:52
+msgid "Tour Accommodation"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:53
+msgid "Tour Meals"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:54
+msgid "Tour Group size"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/class-init.php:60
+#: inc/widgets/class-travel-widgets.php:45
+#: inc/widgets/class-travel-widgets.php:285
+#: travel-booking.php:197
+#: travel-booking.php:206
+msgid "Tour Type"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:32
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-star.php:36
+msgid "Value"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:36
+msgid "Regular"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:37
+msgid "Sale"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:38
+msgid "Both"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:39
+msgid "From to"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:61
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-price.php:63
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:46
+msgid "From"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-star.php:39
+msgid "Average Rating"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-star.php:40
+msgid "Rating Count"
+msgstr ""
+
+#: inc/external-plugin/elementor/dynamic-tags/tags/tour/item-star.php:41
+msgid "Review Count"
+msgstr ""
+
+#: inc/external-plugin/elementor/function-tours-widget.php:136
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/external-plugin/elementor/function-tours-widget.php:159
+msgid "See all tours"
+msgstr ""
+
+#: inc/external-plugin/elementor/function-tours-widget.php:219
+msgid "Weather request error. Please make sure that your api is entered."
+msgstr ""
+
+#: inc/external-plugin/elementor/modules/archive-tour/class-init.php:12
+msgid "Archive Tour"
+msgstr ""
+
+#: inc/external-plugin/elementor/modules/archive-tour/class-init.php:85
+#: inc/external-plugin/elementor/modules/single-tour/class-init.php:206
+msgid "All Tour"
+msgstr ""
+
+#: inc/external-plugin/elementor/modules/archive-tour/class-init.php:90
+#: inc/external-plugin/elementor/modules/single-tour/class-init.php:211
+msgid "Select Tour Type"
+msgstr ""
+
+#: inc/external-plugin/elementor/modules/archive-tour/class-init.php:95
+#: inc/external-plugin/elementor/widgets/global/attributes.php:51
+msgid "Select Attribute"
+msgstr ""
+
+#: inc/external-plugin/elementor/modules/single-tour/class-init.php:216
+msgid "Select Tour"
+msgstr ""
+
+#: inc/external-plugin/elementor/TourElementor.php:127
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:33
+msgid "Archive Tours"
+msgstr ""
+
+#: inc/external-plugin/elementor/TourElementor.php:131
+msgid "Single Tours"
+msgstr ""
+
+#: inc/external-plugin/elementor/TourElementor.php:135
+msgid "Travel Booking"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:52
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:40
+msgid "Setting"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:59
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:68
+msgid "Choose a template"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:62
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:50
+msgid "Default"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:68
+#: inc/external-plugin/elementor/widgets/global/attributes.php:85
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:165
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:54
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:91
+msgid "Columns"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:79
+msgid "Number Post"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:90
+msgid "Show Topbar"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:92
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:48
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:142
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:228
+#: inc/widgets/class-travel-widgets.php:41
+#: inc/widgets/class-travel-widgets.php:48
+#: inc/widgets/class-travel-widgets.php:55
+#: inc/widgets/class-travel-widgets.php:62
+#: inc/widgets/class-travel-widgets.php:69
+#: inc/widgets/class-travel-widgets.php:76
+#: inc/widgets/class-travel-widgets.php:83
+msgid "Show"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:93
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:49
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:143
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:227
+#: inc/widgets/class-travel-widgets.php:40
+#: inc/widgets/class-travel-widgets.php:47
+#: inc/widgets/class-travel-widgets.php:54
+#: inc/widgets/class-travel-widgets.php:61
+#: inc/widgets/class-travel-widgets.php:68
+#: inc/widgets/class-travel-widgets.php:75
+#: inc/widgets/class-travel-widgets.php:82
+msgid "Hide"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:103
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:305
+#: inc/external-plugin/elementor/widgets/global/attributes.php:202
+#: inc/external-plugin/elementor/widgets/global/attributes.php:212
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1146
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:238
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:248
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:293
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:789
+msgid "Pagination"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:107
+#: inc/external-plugin/elementor/widgets/global/attributes.php:216
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:105
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:252
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:71
+msgid "None"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:108
+#: inc/external-plugin/elementor/widgets/global/attributes.php:217
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:253
+msgid "Numbers"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:116
+msgid "Shorten"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:134
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:89
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:186
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:163
+msgid "Layout"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:142
+#: inc/external-plugin/elementor/widgets/global/attributes.php:417
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:196
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:95
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:174
+msgid "Columns Gap"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:162
+#: inc/external-plugin/elementor/widgets/global/attributes.php:431
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:218
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:118
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:194
+msgid "Rows Gap"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/archive-tour/archive-tours.php:282
+msgid "Page"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:21
+msgid "Tours Attributes"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:61
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:45
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:37
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:42
+msgid "Style"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:64
+msgid "List"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:65
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:93
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:51
+msgid "Slider"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:74
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:151
+msgid "Limit"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:135
+msgid "Search Form"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:144
+msgid "Show Search"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:153
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:145
+msgid "Placeholder"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:164
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:50
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:181
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:329
+msgid "Icon"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:189
+msgid "Show sort by"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:240
+#: inc/external-plugin/elementor/widgets/global/attributes.php:507
+#: inc/external-plugin/elementor/widgets/global/attributes.php:987
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1023
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:261
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:797
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:45
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:121
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:134
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:50
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:103
+msgid "Alignment"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:244
+#: inc/external-plugin/elementor/widgets/global/attributes.php:511
+#: inc/external-plugin/elementor/widgets/global/attributes.php:991
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1027
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:265
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:943
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:801
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:49
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:125
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:138
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:220
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:54
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:107
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:267
+msgid "Left"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:248
+#: inc/external-plugin/elementor/widgets/global/attributes.php:515
+#: inc/external-plugin/elementor/widgets/global/attributes.php:995
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1031
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:269
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:805
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:53
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:129
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:142
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:58
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:111
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:271
+msgid "Center"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:252
+#: inc/external-plugin/elementor/widgets/global/attributes.php:519
+#: inc/external-plugin/elementor/widgets/global/attributes.php:999
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1035
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:273
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:947
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:809
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:57
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:133
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:146
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:224
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:62
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:115
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:275
+msgid "Right"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:284
+msgid "Select Item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:289
+#: inc/external-plugin/elementor/widgets/global/attributes.php:636
+msgid "Count"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:291
+#: inc/external-plugin/elementor/widgets/global/attributes.php:679
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1021
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:232
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:308
+msgid "Button"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:298
+msgid "Title HTML Tag"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:321
+msgid "Excerpt Lenght"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:343
+msgid "Excerpt More"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:354
+msgid "Name Button"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:378
+msgid "Show & Hidden when hover"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:390
+msgid "Data Item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:409
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:189
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:68
+msgid "Item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:454
+#: inc/external-plugin/elementor/widgets/global/attributes.php:533
+#: inc/external-plugin/elementor/widgets/global/attributes.php:687
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:303
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:151
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:210
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:304
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1232
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:93
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:324
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:745
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:877
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:296
+msgid "Padding"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:475
+#: inc/external-plugin/elementor/widgets/global/attributes.php:709
+#: inc/external-plugin/elementor/widgets/global/attributes.php:885
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:322
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:182
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:439
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:652
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1263
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:127
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:217
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:348
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:668
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:776
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:101
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:318
+msgid "Border Radius"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:554
+#: inc/external-plugin/elementor/widgets/global/attributes.php:602
+#: inc/external-plugin/elementor/widgets/global/attributes.php:645
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1183
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1213
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1243
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:359
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:401
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:443
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:118
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:202
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:255
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:248
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:322
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:339
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:356
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:483
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:696
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1045
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1073
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:72
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:70
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:153
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:194
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:75
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:145
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:294
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:389
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:432
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:733
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:906
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:937
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:968
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:74
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:145
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:159
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:79
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:68
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:128
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:156
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:238
+msgid "Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:564
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:129
+msgid "Color Hover"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:583
+#: inc/external-plugin/elementor/widgets/global/attributes.php:621
+#: inc/external-plugin/elementor/widgets/global/attributes.php:664
+#: inc/external-plugin/elementor/widgets/global/attributes.php:738
+#: inc/external-plugin/elementor/widgets/global/attributes.php:914
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:511
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:571
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:291
+msgid "Spacing"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:593
+msgid "Excerpt"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:720
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1105
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1172
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:591
+msgid "Width"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:758
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1176
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:352
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:196
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:316
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:477
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:690
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1039
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:147
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:383
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:899
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:367
+msgid "Normal"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:788
+#: inc/external-plugin/elementor/widgets/global/attributes.php:841
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:379
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:421
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:463
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:223
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:276
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:505
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:536
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:567
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:717
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:748
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:779
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:173
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:214
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:411
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:453
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:397
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:454
+msgid "Border Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:812
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1206
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:394
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:249
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:333
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:519
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:731
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1067
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:426
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:930
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:425
+msgid "Hover"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:925
+msgid "Overlay"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:944
+msgid "Position Item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1059
+msgid "Custom offset"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1061
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:244
+msgid "Yes"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1062
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:245
+msgid "No"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1069
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:937
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1106
+msgid "Vertical Orientation"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1165
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:341
+msgid "Colors"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1193
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1223
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1253
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:369
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:411
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:453
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1055
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1083
+msgid "Background"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1236
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:436
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:350
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:961
+msgid "Active"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1267
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:480
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:857
+msgid "Space Top(px)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1287
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:500
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:889
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:117
+msgid "Space Between"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1581
+#: templates/single-tour/product-reviews.php:124
+msgid "Sort by"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1590
+msgid "Ascending"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1597
+msgid "Descending"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/attributes.php:1604
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:114
+msgid "Popularity"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:25
+msgid "List Tours"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:83
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:38
+msgid "General Settings"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:92
+msgid "Pain"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:102
+msgid "Template ID"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:112
+msgid "Select Tour Category"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:122
+msgid "Order by"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:125
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:111
+msgid "Date"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:127
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:116
+msgid "Random"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:128
+msgid "On-sale"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:129
+msgid "Sort custom"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:138
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:125
+msgid "Order"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:141
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:130
+msgid "DESC"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:142
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:129
+msgid "ASC"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/list-tours.php:654
+msgid "No data were found matching your selection, you need to create Post or select Category of Widget."
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:48
+msgid "Button Clear Filter"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:63
+msgid "Selected Lits"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:72
+msgid "Icon Remove"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:80
+msgid "Icon size"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:99
+msgid "Icon Space"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:144
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:241
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:283
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1030
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:86
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:130
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:156
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:287
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:317
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:726
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:156
+msgid "Typography"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:163
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1244
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:336
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:757
+msgid "Margin"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:299
+msgid "Escorted Tour"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:303
+msgid "Five stars"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-selected.php:307
+#: templates/tour-search/fields/selection.php:11
+msgid "Clear Filter"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:58
+msgid "Filter Area"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:66
+msgid "Select Type"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:70
+msgid "Name"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:71
+msgid "Attributes"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:72
+msgid "Date time"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:74
+msgid "Tour types"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:76
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:115
+#: inc/widgets/class-travel-widgets.php:352
+msgid "Rating"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:77
+msgid "Selected"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:78
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1165
+msgid "Button Reset"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:79
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1098
+msgid "Button Submit"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:88
+msgid "Type your label here"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:98
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:100
+msgid "Name button"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:121
+msgid "Show attribute"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:125
+msgid "Tour Search settings"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:134
+msgid "Icon attribute"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:147
+msgid "Type your placeholder here"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:156
+msgid "Width Content(%)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:170
+msgid "Repeater Field filter"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:196
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:258
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:290
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:93
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:163
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:477
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:163
+msgid "Space(px)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:372
+msgid "Checkbox"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:379
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:592
+msgid "Box size"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:405
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:618
+msgid "Offset Right"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:450
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:663
+msgid "Checked Size"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:550
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:762
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:188
+msgid "Focus"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:585
+msgid "Radio"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:797
+msgid "Ranger"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:804
+msgid "Line Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:816
+msgid "Active Line Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:827
+msgid "Button Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:843
+msgid "Ratting"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:850
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:228
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:527
+msgid "Star"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:858
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:53
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:236
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:681
+msgid "Star Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:868
+msgid "Star empty Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:878
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:76
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:258
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:703
+msgid "Star Size"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:922
+msgid "Responsive mobile"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:929
+msgid "Form Position"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:971
+msgid "Width Content"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:994
+msgid "Max Height"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1139
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1206
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:105
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:636
+msgid "Height"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1277
+msgid "Counter"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1294
+msgid "Font Size"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1311
+msgid "Space"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1329
+msgid "Select..."
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1357
+msgid "Filter"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/global/search-tour.php:1367
+msgid "Back"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:30
+msgid "Tour Rating"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:65
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:247
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:692
+msgid "Empty Star Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:97
+msgid "Number Review"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-ratting.php:147
+msgid "Number Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:16
+msgid "Tours Sale Flash"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:49
+msgid "Display"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:53
+msgid "Text"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:54
+msgid "Percentage"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/loop-item/loop-tour-sale.php:123
+msgctxt "sale percentage"
+msgid "-%d%%"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:22
+msgid "Tours Booking Form"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-booking-form.php:85
+msgid "Input"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:15
+msgid "Tours Comment"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:46
+msgid "Show Avatar"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:68
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:112
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:114
+msgid "Header"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:137
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:217
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:225
+msgid "Heading"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:176
+msgid "Progress"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:184
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:368
+msgid "Height(px)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:207
+msgid "Background Color Active"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:278
+#: templates/cart.php:28
+#: templates/cart.php:135
+#: templates/checkout/order-details.php:22
+#: templates/checkout/review-order.php:16
+#: templates/checkout/review-order.php:107
+#: templates/single-tour/booking.php:268
+msgid "Total"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:470
+msgid "Item Comment"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:503
+msgid "Avatar"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:545
+msgid "Meta Data"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:614
+msgid "Max Width"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-comment.php:824
+msgid "Between item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:18
+msgid "Tours Content"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-content.php:61
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:66
+msgid "Justified"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:19
+msgid "Tours Faqs"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-faqs.php:78
+msgid "Active Icon"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-hightlight.php:24
+msgid "Tours Hightlight"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:24
+msgid "Tours Image"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:49
+msgid "Thumbnails Setting"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:53
+msgid "Sliders"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:61
+msgid "Slider Setting"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:65
+msgid "Horizontal"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:66
+msgid "Vertical"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:77
+msgid "Select Columns"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:140
+msgid "Show More Button"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:154
+msgid "Item to show"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:171
+msgid "Gallery"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:195
+msgid "Thumbnail Width"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:214
+msgid "Thumbnail Position"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:242
+msgid "Position fixed"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:259
+msgid "Nav Feature"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:265
+msgid "Nav Thumbnail"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:278
+msgid "Show More"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:337
+msgid "Icon size(px)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:351
+msgid "Icon space(px)"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:410
+#: inc/external-plugin/elementor/widgets/single-tour/tours-image.php:467
+msgid "Icon Color"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-itinerary.php:17
+msgid "Tours Itinerary"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:20
+msgid "Tours Price"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:44
+msgid "Before Price"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:47
+msgid "Type your text here"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:54
+msgid "Before"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-price.php:147
+msgid "Sale Price"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-rating.php:22
+msgid "Tours Rating"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:16
+msgid "Tours Related"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:46
+msgid "Skin"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:58
+msgid "Build Loop Item"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:80
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:107
+msgid "Order By"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:117
+msgid "Menu Order"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:263
+msgid "Text Align"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-related.php:347
+msgid "Similar experiences"
+msgstr ""
+
+#: inc/external-plugin/elementor/widgets/single-tour/tours-weather.php:20
+msgid "Tours Weather"
+msgstr ""
+
+#: inc/product-type-tour.php:26
+#: templates/cart.php:25
+#: templates/cart.php:77
+#: templates/checkout/order-details.php:21
+#: templates/checkout/review-order.php:15
+msgid "Tour"
+msgstr ""
+
+#: inc/taxonomy_tour.php:10
+msgid "Tour Categories"
+msgstr ""
+
+#: inc/taxonomy_tour.php:11
+#: inc/taxonomy_tour.php:20
+msgid "Tour Category"
+msgstr ""
+
+#: inc/taxonomy_tour.php:12
+msgid "Search Tour Categories"
+msgstr ""
+
+#: inc/taxonomy_tour.php:13
+msgid "All Tour Categories"
+msgstr ""
+
+#: inc/taxonomy_tour.php:14
+msgid "Parent Tour Category"
+msgstr ""
+
+#: inc/taxonomy_tour.php:15
+msgid "Parent Tour Category:"
+msgstr ""
+
+#: inc/taxonomy_tour.php:16
+msgid "Edit Tour Category"
+msgstr ""
+
+#: inc/taxonomy_tour.php:17
+msgid "Update Tour Category"
+msgstr ""
+
+#: inc/taxonomy_tour.php:18
+msgid "Add New Tour Category"
+msgstr ""
+
+#: inc/taxonomy_tour.php:19
+msgid "New Tour Category Name"
+msgstr ""
+
+#: inc/tb-get-template.php:203
+#: templates/admin/metabox-tour-data.php:19
+msgid "Hightlight"
+msgstr ""
+
+#: inc/tb-get-template.php:210
+msgid "Additional information"
+msgstr ""
+
+#: inc/tb-get-template.php:222
+msgid "Reviews (%d)"
+msgstr ""
+
+#: inc/tb-get-template.php:372
+msgid "Group Size"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:10
+msgid "Tour Search"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:38
+msgid "Tour Name"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:52
+msgid "Show Tour Code"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:59
+msgid "Show Date"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:66
+msgid "Show Duration"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:73
+msgid "Show Filter Ratting"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:80
+msgid "Show Filter Price"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:91
+msgid "Load widget via REST"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:249
+#: inc/widgets/class-travel-widgets.php:263
+msgid "Search Tour"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:250
+msgid "Find your dream tour today!"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:409
+msgid " Price range"
+msgstr ""
+
+#: inc/widgets/class-travel-widgets.php:436
+msgid "Find Tours"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:31
+msgid "Address"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:36
+msgid "Google Map (iframe) Or Address"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:41
+msgid "Latitude"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:45
+msgid "Longitude"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:49
+msgid "Get Lat Long from Address"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:76
+msgid "Add new hightlight"
+msgstr ""
+
+#: templates/admin/metabox-tour-data.php:128
+msgid "Remove hightlight"
+msgstr ""
+
+#: templates/admin/metabox-tour-faq.php:28
+msgid "Add new faq"
+msgstr ""
+
+#: templates/admin/metabox-tour-faq.php:73
+msgid "Remove Faq"
+msgstr ""
+
+#: templates/admin/metabox-tour-group-discount.php:23
+msgid "Customer number"
+msgstr ""
+
+#: templates/admin/metabox-tour-group-discount.php:28
+msgid "Discount"
+msgstr ""
+
+#: templates/admin/metabox-tour-group-discount.php:35
+msgid "* Fill only number for fixed amount, ex. '10' for $10. Fill % at the end if using as percentage, ex. '10%'"
+msgstr ""
+
+#: templates/admin/metabox-tour-group-discount.php:82
+msgid "Add group discount"
+msgstr ""
+
+#: templates/admin/metabox-tour-group-discount.php:83
+#: templates/admin/metabox-tour-variation.php:33
+msgid "Save"
+msgstr ""
+
+#: templates/admin/metabox-tour-variation.php:32
+msgid "Add new variant"
+msgstr ""
+
+#: templates/admin/metabox-tour-variation.php:97
+msgid "Remove Variation"
+msgstr ""
+
+#: templates/admin/settings/personal-information.php:27
+msgid "Type"
+msgstr ""
+
+#: templates/admin/settings/personal-information.php:70
+msgid "Add item"
+msgstr ""
+
+#: templates/admin/settings/personal-information.php:79
+msgid "Attribute"
+msgstr ""
+
+#: templates/admin/settings/personal-information.php:82
+msgid "Priority"
+msgstr ""
+
+#: templates/admin/settings/personal-information.php:83
+msgid "Remove"
+msgstr ""
+
+#: templates/archive-attribute.php:62
+#: templates/archive-tour.php:64
+msgid "No tours were found matching your selection."
+msgstr ""
+
+#: templates/cart.php:27
+#: templates/cart.php:107
+msgid "Number ticket"
+msgstr ""
+
+#: templates/cart.php:56
+msgid "Remove this item"
+msgstr ""
+
+#: templates/cart.php:96
+msgid "Available on backorder"
+msgstr ""
+
+#: templates/cart.php:153
+msgid "Coupon:"
+msgstr ""
+
+#: templates/cart.php:159
+msgid "Coupon code"
+msgstr ""
+
+#: templates/cart.php:161
+msgid "Apply Coupon"
+msgstr ""
+
+#: templates/cart.php:168
+msgid "Update Cart"
+msgstr ""
+
+#: templates/checkout/order-details-item.php:39
+#: templates/single-tour/booking.php:140
+msgid "Date check in"
+msgstr ""
+
+#: templates/checkout/order-details-item.php:40
+#: templates/single-tour/booking.php:145
+msgid "Date check out"
+msgstr ""
+
+#: templates/checkout/order-details.php:17
+msgid "Order Details"
+msgstr ""
+
+#: templates/checkout/review-order.php:60
+msgid "Subtotal"
+msgstr ""
+
+#: templates/global/breadcrumb.php:22
+msgid "Home"
+msgstr ""
+
+#: templates/loop/ordering.php:16
+msgid "Sort By"
+msgstr ""
+
+#: templates/loop/ordering.php:25
+msgid "Default sorting"
+msgstr ""
+
+#: templates/loop/ordering.php:26
+msgid "Sort by popularity"
+msgstr ""
+
+#: templates/loop/ordering.php:27
+msgid "Sort by average rating"
+msgstr ""
+
+#: templates/loop/ordering.php:28
+msgid "Sort by newness"
+msgstr ""
+
+#: templates/loop/ordering.php:29
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: templates/loop/ordering.php:30
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: templates/loop/result-count.php:42
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/loop/result-count.php:44
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-tour/booking.php:104
+msgid "Book the tour"
+msgstr ""
+
+#: templates/single-tour/booking.php:111
+msgid "First name"
+msgstr ""
+
+#: templates/single-tour/booking.php:117
+msgid "Last name"
+msgstr ""
+
+#: templates/single-tour/booking.php:123
+msgid "Email"
+msgstr ""
+
+#: templates/single-tour/booking.php:129
+msgid "Phone"
+msgstr ""
+
+#: templates/single-tour/booking.php:149
+msgid "Total Night"
+msgstr ""
+
+#: templates/single-tour/booking.php:158
+msgid "Date check in and check out"
+msgstr ""
+
+#: templates/single-tour/booking.php:167
+msgid "Date Book"
+msgstr ""
+
+#: templates/single-tour/booking.php:192
+msgid "ticket in stock"
+msgstr ""
+
+#: templates/single-tour/booking.php:256
+msgid "People"
+msgstr ""
+
+#: templates/single-tour/booking.php:283
+msgid "Booking now"
+msgstr ""
+
+#: templates/single-tour/booking.php:307
+msgid "Tour is Out of stock"
+msgstr ""
+
+#: templates/single-tour/code.php:20
+msgid "Code:"
+msgstr ""
+
+#: templates/single-tour/gallery.php:49
+msgid "Awaiting product image"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:46
+msgid "Write a Review"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:68
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-tour/product-reviews.php:85
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-tour/product-reviews.php:120
+#: templates/tour-search/fields/destination.php:60
+msgid "All"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:121
+msgid "With Photos Only"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:128
+#: templates/single-tour/product-reviews.php:156
+msgid "Oldest"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:133
+#: templates/single-tour/product-reviews.php:160
+msgid "Newest"
+msgstr ""
+
+#: templates/single-tour/product-reviews.php:135
+#: templates/single-tour/product-reviews.php:164
+msgid "Top Review"
+msgstr ""
+
+#: templates/single-tour/related.php:47
+msgid "Related Tours"
+msgstr ""
+
+#: templates/single-tour/review-rating.php:32
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: templates/single-tour/review-rating.php:34
+msgid "out of %1$s5%2$s"
+msgstr ""
+
+#: templates/single-tour/review-rating.php:35
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-tour/review-rating.php:39
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-tour/variation.php:61
+msgid "Choose"
+msgstr ""
+
+#: templates/tour-search/fields/duration.php:9
+msgid "Less than 1 day"
+msgstr ""
+
+#: templates/tour-search/fields/duration.php:10
+msgid "1 to 3 days"
+msgstr ""
+
+#: templates/tour-search/fields/duration.php:11
+msgid "3+ days"
+msgstr ""
+
+#: templates/tour-search/fields/price.php:35
+msgid "Reset"
+msgstr ""
+
+#: templates/tour-search/fields/rating.php:17
+msgid "All Rating"
+msgstr ""
+
+#: templates/tour-search/fields/search-button.php:7
+msgid "Search"
+msgstr ""
+
+#: travel-booking.php:71
+msgid "Media Categories"
+msgstr ""
+
+#: travel-booking.php:72
+msgid "Media Category"
+msgstr ""
+
+#: travel-booking.php:196
+msgid "Tour Types"
+msgstr ""
+
+#: travel-booking.php:198
+msgid "Search Tour Types"
+msgstr ""
+
+#: travel-booking.php:199
+msgid "All Tour Types"
+msgstr ""
+
+#: travel-booking.php:200
+msgid "Parent Tour Type"
+msgstr ""
+
+#: travel-booking.php:201
+msgid "Parent Tour Type:"
+msgstr ""
+
+#: travel-booking.php:202
+msgid "Edit Tour Type"
+msgstr ""
+
+#: travel-booking.php:203
+msgid "Update Tour Type"
+msgstr ""
+
+#: travel-booking.php:204
+msgid "Add New Tour Type"
+msgstr ""
+
+#: travel-booking.php:205
+msgid "New Tour Type Name"
+msgstr ""
+
+#: travel-booking.php:494
+msgid "The image number is greater than %s"
+msgstr ""
+
+#: travel-booking.php:495
+msgid "The image file type is invalid"
+msgstr ""
+
+#: travel-booking.php:496
+msgid "The maximum file size is %s KB"
+msgstr ""
+
+#: travel-booking.php:508
+msgid "Enter first name"
+msgstr ""
+
+#: travel-booking.php:509
+msgid "Enter last name"
+msgstr ""
+
+#: travel-booking.php:510
+msgid "Email invalid"
+msgstr ""
+
+#: travel-booking.php:511
+msgid "Enter phone"
+msgstr ""
+
+#: travel-booking.php:512
+msgid "Enter Date"
+msgstr ""
+
+#: travel-booking.php:513
+msgid "Enter Date checkin"
+msgstr ""
+
+#: travel-booking.php:514
+msgid "Enter Date checkout"
+msgstr ""
+
+#: travel-booking.php:570
+msgid "View Travel booking documentation"
+msgstr ""
+
+#: travel-booking.php:573
+msgid "Docs"
+msgstr ""
+
+#: travel-booking.php:577
+msgid "Visit premium customer support"
+msgstr ""
+
+#: travel-booking.php:580
+msgid "Support"
+msgstr ""
+
+#: travel-booking.php:597
+msgid "Please active plugin Woocommerce before active plugin Travel Booking"
+msgstr ""
+
+#: assets/js/admin/product-review/images.js:16
+msgid "Select Images"
+msgstr ""
+
+#: assets/js/admin/product-review/images.js:17
+msgid "Use these images"
+msgstr ""

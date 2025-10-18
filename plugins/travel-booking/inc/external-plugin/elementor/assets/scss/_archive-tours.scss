@@ -1,0 +1,26 @@
+.thim-ekit-archive-tours {
+    .thim-ekit-archive-tours__inner {
+        display: grid;
+        column-gap: var(--thim-ekits-tours-column-gap, 30px);
+        row-gap: var(--thim-ekits-tours-row-gap, 30px);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+.thim-ekit-archive-tours__pagination {
+    margin-top: 20px;
+}
+.thim-ekits-archive-tours__topbar {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .tour-ordering h6 {
+        display: inline-block;
+        margin-right: 16px;
+    }
+}

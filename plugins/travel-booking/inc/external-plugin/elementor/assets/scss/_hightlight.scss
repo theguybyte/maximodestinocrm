@@ -1,0 +1,64 @@
+.thim-ekits-tour-loop-ratting.woocommerce {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .star-rating {
+        float: unset;
+    }
+    .number-ratting {
+        margin-top: 1px;
+        margin-left: 0 !important;
+    }
+}
+.tours-interary-items {
+    &.interary-accordion {
+        .interary-item {
+            margin-bottom: 12px !important;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &::before {
+                display: none;
+            }
+            padding: 20px;
+            border: 1px solid #e8edf1;
+            border-radius: 16px;
+            .item_content {
+                display: block;
+                width: 100%;
+                h3 {
+                    position: relative;
+                    width: 100%;
+                    margin: 0;
+                    cursor: pointer;
+                    &::after {
+                        content: "\f067";
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translate(-0%, -50%);
+                        font-family: thim-ekits !important;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        font-size: 12px;
+                    }
+                    &.active {
+                        margin-bottom: 24px;
+                        color: $color_primary;
+                        &::after {
+                            content: "\f068";
+                            color: $color_primary;
+                        }
+                    }
+                }
+                .accordion-content {
+                    display: none;
+                    transition: all 0.3s ease-out;
+                }
+            }
+        }
+    }
+}

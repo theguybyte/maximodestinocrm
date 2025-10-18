@@ -1,0 +1,878 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-09 04:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:46
+msgid "Media Categories"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:47
+msgid "Media Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:151
+msgid "Tour Types"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:152
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:161
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:98
+msgid "Tour Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:153
+msgid "Search Tour Types"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:154
+msgid "All Tour Types"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:155
+msgid "Parent Tour Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:156
+msgid "Parent Tour Type:"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:157
+msgid "Edit Tour Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:158
+msgid "Update Tour Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:159
+msgid "Add New Tour Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:160
+msgid "New Tour Type Name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:287
+msgid "Enter first name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:288
+msgid "Enter last name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:289
+msgid "Email invalid"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:290
+msgid "Enter phone"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:291
+msgid "Enter Date"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:292
+msgid "Enter Date checkin"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:293
+msgid "Enter Date checkout"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/travel-booking.php:329
+msgid "Please active plugin Woocomerce before active plugin Travel Booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:50
+msgid "Regular price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:56
+msgid "Sale price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:62
+msgid "Child price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:68
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:93
+msgid "Tour Code"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:74
+msgid "Max number ticket (adult) per booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:77
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:89
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:95
+msgid "Set empty for no limit"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:80
+msgid "Min number ticket (adult) per booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:83
+msgid "min required = 1"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:86
+msgid "Max number children per booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:92
+msgid "Min number children per booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:98
+msgid "Show only form send enquiry"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:113
+msgid "Booking starts after day"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:116
+msgid "Leave 0 for no limit"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:119
+msgid "Fixed duration"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:126
+msgid "Set No, customer can choose date check out"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:129
+msgid "Duration Text"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:133
+msgid "Only for displaying as tour information."
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:136
+msgid "Duration (Days)"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:140
+msgid "Ex: Fill \"5\" for five days (Only Number is Allowed)"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:152
+msgid "Max year enable"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:161
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:169
+msgid "Disable Dates"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:184
+msgid ")"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:196
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:69
+msgid "Enable group discount"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:203
+#, php-format
+msgid ""
+"Ex: if you create 2 discount boxes, and for the first box, you set up 5 "
+"customer with 10% discount and for another box, 10 customer with 20% "
+"discount. When customers book smaller than 10 travellers, they will get 10% "
+"off. However, if they book for 10, 11, 12 ( and so on ) customer, they will "
+"get 20% off."
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:206
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:76
+msgid "Text Discount Form Booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:239
+msgid "Tour Booking"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:246
+msgid "Tour Variations"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:253
+msgid "Dates and Price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:260
+msgid "Tour Tabs"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-tab-tour.php:267
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:241
+msgid "Group discount"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:58
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:63
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:37
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:42
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:58
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:74
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details-item.php:39
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:138
+msgid "Date check in"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:59
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:64
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:38
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:43
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:59
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:75
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details-item.php:40
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:141
+msgid "Date check out"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:68
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:136
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:47
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:111
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:61
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details-item.php:44
+msgid "Adults"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:69
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:137
+#: svn/wp/theme-plugins/travel-booking/inc/class-woo-pdf-invoices-packing-slips.php:51
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:113
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-items.php:64
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details-item.php:45
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/personal-information.php:77
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:210
+msgid "Children"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:71
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:139
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details-item.php:47
+msgid "Tickets"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:99
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/personal-information.php:24
+msgid "Personal Information"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-order.php:119
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:168
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/personal-information.php:37
+msgid "Adult"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:10
+msgid "Tour Categories"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:11
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:20
+msgid "Tour Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:12
+msgid "Search Tour Categories"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:13
+msgid "All Tour Categories"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:14
+msgid "Parent Tour Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:15
+msgid "Parent Tour Category:"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:16
+msgid "Edit Tour Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:17
+msgid "Update Tour Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:18
+msgid "Add New Tour Category"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/taxonomy_tour.php:19
+msgid "New Tour Category Name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/tb-get-template.php:151
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:53
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:32
+msgid "Description"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/tb-get-template.php:158
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:16
+msgid "Itinerary"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/tb-get-template.php:166
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:17
+msgid "Location"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/tb-get-template.php:175
+#, php-format
+msgid "Reviews (%d)"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:29
+msgid "Tour Search"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:46
+msgid "Show Tour Code"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:48
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:55
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:62
+msgid "Hide"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:49
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:56
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:63
+msgid "Show"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:53
+msgid "Show Filter Ratting"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:60
+msgid "Show Filter Price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:78
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:83
+msgid "Search Tour"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:79
+msgid "Find your dream tour today!"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:153
+msgid "Rating"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:209
+msgid "Price range"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-widgets.php:234
+msgid "Find Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:48
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:147
+msgid "Tours Page"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:55
+msgid "Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:73
+msgid "Settings search tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:79
+msgid "Search by attribute"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:80
+msgid "Search tour by attribute set on Woocomerce"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:95
+msgid "Settings permalink tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:101
+msgid "Tour category base"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:115
+msgid "Setting Personal information"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:121
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:20
+msgid "Enable"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:127
+msgid "Tours Personal Information"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:141
+msgid "Tour Pages"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:154
+msgid ""
+"This sets the base page of your tour - this is where your tour archive will "
+"be."
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:167
+msgid "Redirect to page after Booking tour"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:176
+msgid "Location Options"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:177
+msgid "Use google Map API or google map iframe"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:182
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:188
+msgid "Google API Key"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:183
+msgid "Google Map iframe"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:189
+msgid "Use show google map in tab Location of single tour"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:190
+msgid ""
+"How to get API Key https://developers.google."
+"com/maps/documentation/javascript/get-api-key"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:197
+msgid "Separate Ticket for Adult, Children"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:207
+msgid "Price percent child/adult (%)"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:209
+msgid ""
+"If you want set price children for each Tour, You can set set value Price "
+"Child on Tour when \"Show number adults and children\" enable"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:216
+msgid "Date format"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:246
+msgid "General"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:247
+msgid "Search Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:248
+msgid "Permalink Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:249
+msgid "Travel Personal Information"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:294
+msgid "Select all"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:295
+msgid "Select none"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:329
+msgid "Open the settings page for this plugin"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-settings.php:329
+msgid "Settings"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-ajax-frontend.php:558
+msgid "Someone in "
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-ajax-frontend.php:558
+msgid " purchased a "
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-sidebar.php:20
+msgid "Sidebar Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/product-type-tour.php:20
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:25
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:75
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-details.php:28
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/review-order.php:15
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details.php:21
+msgid "Tour"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-url.php:105
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-personal-information.php:105
+msgid "tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:124
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:132
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:197
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:120
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:128
+msgid "Check in"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:125
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:133
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:198
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:121
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-checkout.php:129
+msgid "Check out"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/inc/class-travel-template-loader.php:169
+msgid "Child"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/archive-attribute.php:59
+#: svn/wp/theme-plugins/travel-booking/templates/archive-tour.php:61
+msgid "No tours were found matching your selection."
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:26
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-details.php:29
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:52
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/price.php:27
+msgid "Price"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:27
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:105
+msgid "Number ticket"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:28
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:131
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/review-order.php:16
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/review-order.php:107
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details.php:22
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:250
+msgid "Total"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:55
+msgid "Remove this item"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:94
+msgid "Available on backorder"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:149
+msgid "Coupon:"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:155
+msgid "Coupon code"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:157
+msgid "Apply Coupon"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/cart.php:164
+msgid "Update Cart"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/emails/email-order-details.php:18
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:15
+msgid "Label Variation"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:19
+msgid "Enable item"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:26
+msgid "Type Variation"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:35
+msgid "Set price or Only show"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:42
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:36
+msgid "Required"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:51
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:16
+msgid "Label"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:64
+msgid "Enable tour variation"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:81
+msgid "Add new variant"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:82
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:82
+msgid "Save"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-variation.php:144
+msgid "Remove Variation"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:29
+msgid "Address"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:33
+msgid "Latitude"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:37
+msgid "Longitude"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-data.php:43
+msgid "Google Map (iframe)"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:22
+msgid "Customer number"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:27
+msgid "Discount"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:34
+msgid ""
+"* Fill only number for fixed amount, ex. '10' for $10. Fill % at the end if "
+"using as percentage, ex. '10%'"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/metabox-tour-group-discount.php:81
+msgid "Add group discount"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/review-order.php:60
+msgid "Subtotal"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/checkout/order-details.php:17
+msgid "Order Details"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/code.php:20
+msgid "Code:"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:103
+msgid "Book the tour"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:110
+msgid "First name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:116
+msgid "Last name"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:122
+msgid "Email"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:128
+msgid "Phone"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:144
+msgid "Total Night"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:151
+msgid "Date check in and check out"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:158
+msgid "Date Book"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:175
+msgid "ticket in stock"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:241
+msgid "People"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:264
+msgid "Booking now"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/booking.php:285
+msgid "Tour is Out of stock"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/related.php:47
+msgid "Related Tours"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/variation.php:57
+msgid "Choose"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/review-rating.php:32
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/review-rating.php:34
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/review-rating.php:35
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/single-tour/review-rating.php:39
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/result-count.php:43
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/result-count.php:45
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:19
+msgid "Default sorting"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:20
+msgid "Sort by popularity"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:21
+msgid "Sort by average rating"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:22
+msgid "Sort by newness"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:23
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/loop/ordering.php:24
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:27
+msgid "Type"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:70
+msgid "Add item"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:79
+msgid "Attribute"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:82
+msgid "Priority"
+msgstr ""
+
+#: svn/wp/theme-plugins/travel-booking/templates/admin/settings/personal-information.php:83
+msgid "Remove"
+msgstr ""
+
+#. Name of the plugin
+msgid "Travel booking"
+msgstr ""
+
+#. Description of the plugin
+msgid "Option for Tour"
+msgstr ""
+
+#. Author of the plugin
+msgid "Physcode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://physcode.com/"
+msgstr ""

@@ -1,0 +1,555 @@
+/*** Style Tab Booking Travel ***/
+.btn {
+    background: rgba(70, 94, 164, 0.85);
+    color: white;
+    padding: 10px;
+    border: 1px;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #465EA4;
+}
+
+.woocommerce_options_panel .price-for-each-day input[type=text].price_day_input, .woocommerce_options_panel .price-for-each-day input[type=text].price_day_input_children {
+    float: right;
+    margin-right: 60%;
+    width: 20%;
+}
+
+hr {
+    margin: 0;
+}
+
+div.form-field {
+    padding: 13px;
+}
+
+div.form-field::after, div.form-field::before {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+div.form-field > span {
+    float: left;
+    width: 150px;
+    display: block;
+}
+
+.price-for-each-day {
+    padding: 10px;
+}
+
+.price-for-each-day input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.field-desc {
+    margin-left: 10px;
+}
+
+ul.days li::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+/*** Tour Data ***/
+a[href='#tour_data_phys']::before {
+    content: '\f322' !important;
+}
+
+#tour_data_phys ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tour_data_phys ul.tabs li {
+    background: none;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#tour_data_phys ul.tabs li.current {
+    background: #eee;
+}
+
+#tour_data_phys .tab-content {
+    display: none;
+    background: #eee;
+    padding: 15px;
+}
+
+#tour_data_phys .tab-content.current {
+    display: inherit;
+}
+
+.price_adults_children {
+    margin-top: 5px
+}
+
+.price_adults_children:before, .price_adults_children:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.st_adults_children {
+    width: 190px;
+    float: left;
+}
+
+.price_adults_children .st_adults_children input {
+    width: 60px !important;
+    margin-right: 0 !important;
+    float: none !important;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.woocommerce_options_panel .label-fullwidth .form-field {
+    padding: 5px 0 !important;
+}
+
+.label-fullwidth .form-field label {
+    display: block;
+    float: none;
+    margin: 0;
+}
+
+.label-fullwidth .form-field textarea {
+    width: 96%;
+}
+
+/*** Tour Variantions ***/
+a[href='#tour_variation_phys']::before {
+    content: '\f106' !important;
+}
+
+#tour_variation_phys hr,
+#phys_tour_hightlight hr {
+    margin: 0;
+}
+
+#tour_variation_phys .tour-variation-enable {
+
+}
+
+#tour_variation_phys .tour-variation-enable strong {
+    margin-left: 10px;
+}
+
+#tour_variation_phys .button-action, 
+#phys_tour_faq .button-action,
+#phys_tour_hightlight .button-action {
+    margin-bottom: 10px;
+}
+
+#tour_variation_phys div.form-field, #phys_tour_faq div.form-field,
+ #phys_tour_hightlight div.form-field {
+    margin: 0;
+    padding: 13px !important;
+}
+
+#tour_variation_phys div.form-field p, #phys_tour_faq div.form-field p,
+#phys_tour_hightlight div.form-field p {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item, #phys_tour_faq .wrapper-tour-faq-item,
+ #phys_tour_hightlight .wrapper-tour-hightlight-item {
+    margin: 5px 0;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item .header-tour-variation-item, #phys_tour_faq .wrapper-tour-faq-item .header-tour-faq-item, 
+#phys_tour_hightlight .wrapper-tour-hightlight-item .header-tour-hightlight-item {
+    padding: 10px;
+    background: #6276b2;
+    position: relative;
+    cursor: move;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item .header-tour-variation-item h3, #phys_tour_faq .wrapper-tour-faq-item .header-tour-faq-item h3,
+ #phys_tour_hightlight .wrapper-tour-hightlight-item .header-tour-hightlight-item h3  {
+    margin: 0;
+    color: white;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item .toggle-up, #tour_variation_phys .wrapper-tour-variant-item .toggle-down,
+#phys_tour_faq .wrapper-tour-faq-item .toggle-up, #phys_tour_faq .wrapper-tour-faq-item .toggle-down,
+#phys_tour_hightlight .wrapper-tour-hightlight-item .toggle-up, #phys_tour_hightlight .wrapper-tour-hightlight-item .toggle-down {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item .toggle-up::before,
+#phys_tour_faq .wrapper-tour-faq-item .toggle-up::before,
+#phys_tour_hightlight .wrapper-tour-hightlight-item .toggle-up::before  {
+    content: "\f142";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+}
+
+#tour_variation_phys .wrapper-tour-variant-item .toggle-down::before, 
+#phys_tour_faq .wrapper-tour-faq-item .toggle-down::before,
+#phys_tour_hightlight .wrapper-tour-hightlight-item .toggle-down::before {
+    content: "\f140";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+}
+
+#tour_variation_phys .tour-variant-item,
+#phys_tour_faq .tour-faq-item,
+#phys_tour_hightlight .tour-hightlight-item {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#tour_variation_phys .tour-variant-item > p::after, #tour_variation_phys .tour-variant-item .tour-variation-attribute li::after,
+#phys_tour_faq .tour-faq-item > p::after,
+#phys_tour_hightlight .tour-hightlight-item > p::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#tour_variation_phys .tour-variant-item > p span,
+#phys_tour_faq .tour-faq-item > p span,
+#phys_tour_hightlight .tour-hightlight-item > p span {
+    float: left;
+    display: block;
+    width: 20%;
+}
+
+#tour_variation_phys .tour-variant-item .tour-variation-attribute {
+    margin-left: 20%;
+    padding: 13px;
+    border: 1px dashed #b7b2b2;
+    position: relative;
+    cursor: move;
+}
+
+#tour_variation_phys .tour-variant-item .tour-variation-attribute li {
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+#tour_variation_phys .tour-variant-item .tour-variation-attribute li h4 {
+    margin: 0;
+}
+
+#tour_variation_phys .tour-variant-item .tour-variation-attribute li span {
+    float: left;
+    display: block;
+    width: 25%;
+}
+
+#tour_variation_phys .tour-variant-item .tour-variation-attribute input {
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+
+#tour_variation_phys .new-variation-attr {
+    margin-left: 20%;
+}
+
+#tour_variation_phys button {
+
+}
+
+#tour_variation_phys button:hover,
+#phys_tour_faq button:hover,
+#phys_tour_hightlight button:hover {
+    cursor: pointer;
+}
+
+#tour_variation_phys .remove-variant,
+#phys_tour_faq .remove-faq,
+#phys_tour_hightlight .remove-hightlight {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 3px;
+    line-height: 20px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+#tour_variation_phys .remove-variant.dashicons-no:before,
+#phys_tour_faq .remove-faq.dashicons-no:before,
+#phys_tour_hightlight .remove-hightlight.dashicons-no:before {
+    content: "\f158";
+    color: rgba(255, 80, 8, 0.85);
+    font-size: 22px;
+    border-radius: 100%;
+}
+
+#tour_variation_phys .remove-variant-attr {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#tour_variation_phys .remove-variant-attr.dashicons-no-alt:before {
+    content: "\f335";
+    color: rgba(255, 80, 8, 0.85);
+    font-size: 20px;
+}
+
+#tour_variation_phys .el-new,
+#phys_tour_faq .el-new {
+    background-color: #ccccccc7;
+    transition: background-color 0.5s ease;
+}
+
+/*** End Tour Variations ***/
+
+/*** Dates and Price ***/
+#phys_tour_dates_price {
+
+}
+
+#phys_tour_dates_price .div-right {
+    float: left;
+    margin-left: 10px;
+}
+
+#phys_tour_dates_price .div-right button {
+    display: block;
+    margin: 5px 0;
+}
+
+/*** Dates Disable ***/
+#phys_datepicker_dates_disable {
+    float: left;
+}
+
+td.date-disable a {
+    background: #ff0000c4 !important;
+    color: white !important;
+}
+
+.datepicker-set-price a {
+    background: rgba(255, 80, 8, 0.85) !important;
+    color: white !important;
+}
+
+select[name=date_format_tour] {
+    line-height: 33px;
+    height: 33px;
+}
+
+/*** Price dates ***/
+a[href="#phys_tour_dates_price"]::before {
+    content: '\f508' !important;
+}
+
+#wrapper-phys-price-dates {
+    padding: 13px;
+}
+
+#wrapper-phys-price-dates p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+#wrapper-phys-price-dates h4 {
+    margin: 0 0 10px;
+}
+
+/*** Dates Range ***/
+#dates-range {
+
+}
+
+#dates-range .set_date::before, #dates-range .set_date::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#dates-range .set_date input {
+    width: 200px;
+    margin-right: 30px;
+}
+
+#dates-range .price-dates-item {
+    margin: 10px 0 0;
+}
+
+#dates-range .price-dates-item p {
+    padding: 0;
+    margin: 5px 0;
+}
+
+#dates-range .price-dates-item p span {
+    float: left;
+    display: block;
+    width: 100px;
+}
+
+#dates-range .price-dates-item p input {
+    width: 100px;
+}
+
+#dates-range .wrapper-price-dates-range-item {
+    position: relative;
+    background: #f2f2f2;
+    padding: 12px;
+}
+
+#dates-range .wrapper-price-dates-range-item .remove-item-price-dates {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
+
+/*** Tour FAQ ***/
+a[href="#phys_tour_faq"]::before {
+    content: '\f223' !important;
+}
+
+/*** Group Discount ***/
+a[href="#phys_tour_group_discount"]::before {
+    content: '\f307' !important;
+}
+
+#list-group-discount {
+}
+
+#list-group-discount .item-group-discount {
+    line-height: 23px;
+    border: 1.5px solid #ededed;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 3px;
+    position: relative;
+}
+
+#list-group-discount .item-group-discount::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#list-group-discount .item-group-discount .label-name {
+    width: 110px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#list-group-discount .item-group-discount .value {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+#list-group-discount .item-group-discount .value input {
+    width: 100%;
+}
+
+#list-group-discount .item-group-discount .des {
+    width: 60%;
+    float: left;
+}
+
+#list-group-discount .item-group-discount .remove-item {
+    color: #ff5008;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+#tour_booking_phys label {
+    width: 200px;
+    margin: 0 0 0 -200px;
+}
+
+#tour_booking_phys p.form-field {
+    padding: 5px 20px 5px 212px !important;
+}
+
+@media (max-width: 1595px) {
+    #list-group-discount .item-group-discount .label-name {
+        width: auto;
+    }
+
+    #list-group-discount .item-group-discount .value {
+        width: 10%;
+    }
+
+    #list-group-discount .item-group-discount .des {
+        width: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    #list-group-discount .item-group-discount .value {
+        width: 40%;
+    }
+
+    #list-group-discount .item-group-discount .des {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #list-group-discount .item-group-discount .label-name {
+        width: 110px;
+    }
+
+    #list-group-discount .item-group-discount .value {
+        width: 40%;
+    }
+
+    #list-group-discount .item-group-discount .des {
+        width: auto;
+    }
+}
+
+.faq-field textarea {
+    width: 50%;
+}
+.hightlight-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.hightlight-field-image{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}

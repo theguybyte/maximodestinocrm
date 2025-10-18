@@ -1,0 +1,616 @@
+.elementor-widget-thim-ekits-search-tour {
+    .travel-product-filter {
+        .wrapper-search-fields {
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 16px;
+            border: 1.5px solid $border_color;
+            background: #fff;
+            .item-filter-heading {
+                font-size: 1em;
+                font-weight: 700;
+                position: relative;
+            }
+            .tour-search-field {
+                width: 100%;
+                padding: 24px 16px;
+                border-bottom: 1.5px solid $border_color;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                .item-filter-heading {
+                    margin-bottom: 20px;
+                }
+                .wrapper-content {
+                    position: relative;
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                &:not(.filter-item-dropdown).filter-title-toggle {
+                    .wrapper-content {
+                        display: none;
+                        transition: all 0.5s ease;
+                    }
+                }
+                &:not(.filter-item-dropdown).open {
+                    .wrapper-content {
+                        display: block;
+                    }
+                }
+                .item {
+                    display: flex;
+                    align-items: center;
+                    label {
+                        text-wrap: nowrap;
+                        word-break: normal;
+                        overflow-wrap: normal;
+                        display: inline-flex;
+                    }
+                }
+                input[type="text"] {
+                    position: relative;
+                    width: 100%;
+                    padding: 15px 12px;
+                    height: 48px;
+                    border-radius: 8px;
+                    border: 1px solid $border_color;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                input[type="radio"]:after {
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                }
+                &.destination {
+                    transition: all 0.3s ease-in;
+                    select {
+                        // opacity: 0;
+                        // overflow: hidden;
+                        width: 100%;
+                        border: 0;
+                        padding: 9px 25px 9px 56px !important;
+                        -webkit-appearance: none;
+                        appearance: none;
+                        &:hover,
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                    .remove-attr {
+                        position: absolute;
+                        top: 50%;
+                        right: 9px;
+                        left: auto;
+                        transform: translate(-50%, -50%);
+                        svg {
+                            position: static !important;
+                            transform: unset !important;
+                            display: block;
+                        }
+                    }
+                    .tour-search-field-inner.frist {
+                        z-index: 99;
+                    }
+                    i,
+                    img,
+                    svg {
+                        &:last-child {
+                            right: 10px;
+                        }
+                    }
+                    .ts-control {
+                        padding: 0 45px;
+                        height: 48px;
+                        background: #fff;
+                        border-radius: 8px;
+                        border: 0;
+                        .item {
+                            margin-bottom: 0 !important;
+                            font-size: 16px;
+                            color: var(--phys-body_color, #4f5e71);
+                        }
+                        > input {
+                            height: 48px;
+                        }
+                    }
+                    .ts-dropdown {
+                        z-index: 999;
+                    }
+                }
+                label {
+                    cursor: pointer;
+                }
+                &.date,
+                &.destination {
+                    .tour-search-field-inner {
+                        position: relative;
+                        margin-bottom: 16px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        i,
+                        img,
+                        svg {
+                            position: absolute;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 99;
+
+                            &:first-child {
+                                left: 30px;
+                            }
+                        }
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            object-fit: cover;
+                        }
+                        input[type="text"] {
+                            padding: 15px 45px;
+                        }
+                        select {
+                            padding: 15px 36px;
+                            height: 48px;
+                        }
+                        .ts-control {
+                            flex-wrap: nowrap !important;
+                        }
+                    }
+                }
+                &.date {
+                    #remove-date-range {
+                        position: absolute;
+                        right: 10px;
+                        transform: translate(-50%, -50%);
+                        top: 50%;
+                        svg {
+                            position: relative;
+                            transform: unset;
+                            left: 0;
+                            top: 0;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            .search-price {
+                .noUi-connects {
+                    background: #e8edf1;
+                    .noUi-connect {
+                        background: #01aa90;
+                    }
+                }
+                .noUi-horizontal {
+                    height: 4px;
+                    top: 17px;
+                    border: 0;
+                    .noUi-handle {
+                        width: 24px;
+                        height: 24px;
+                        right: -34px;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        background: #fff;
+                        border: 2px solid #01aa90;
+                        border-radius: 100%;
+                        &::before,
+                        &::after {
+                            display: none;
+                        }
+                        &.noUi-handle-upper {
+                            right: -20px;
+                        }
+                    }
+                }
+                .range_container {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .sliders_control {
+                    position: relative;
+                    margin-top: 20px;
+                    // min-height: 50px;
+                }
+
+                .form_control {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 24px;
+                    color: #635a5a;
+                }
+
+                input[type="range"]::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    pointer-events: all;
+                    width: 24px;
+                    height: 24px;
+                    background-color: #fff;
+                    border: 2px solid #01aa90;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    z-index: 999;
+                }
+
+                input[type="range"]::-moz-range-thumb {
+                    -webkit-appearance: none;
+                    pointer-events: all;
+                    width: 24px;
+                    height: 24px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    border: 2px solid #01aa90;
+                    cursor: pointer;
+                }
+
+                input[type="range"]::-webkit-slider-thumb:hover {
+                    background: #01aa90;
+                }
+
+                input[type="range"]::-webkit-slider-thumb:active {
+                    background: #01aa90;
+                }
+
+                input[type="range"] {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    height: 8px;
+                    width: 100%;
+                    position: absolute;
+                    background-color: #01aa90;
+                    pointer-events: none;
+                }
+
+                #fromSlider {
+                    height: 8px;
+                    z-index: 1;
+                    top: 0;
+                }
+            }
+        }
+        .button-searh-tour {
+            height: 44px;
+            padding: 10px 25px;
+            border-radius: 200px;
+            text-align: center;
+            margin: 10px auto 24px;
+            background-color: #01aa90;
+            color: #fff;
+        }
+    }
+    .travel-product-filter.show-filter-toggle {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        .wrapper-search-fields {
+            padding: 10px;
+            border: 1px solid #eee;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+            transition: all 1s ease;
+            z-index: 99;
+            &::-webkit-scrollbar {
+                width: 2px;
+            }
+            &::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: darkgrey;
+                outline: 1px solid slategrey;
+            }
+        }
+    }
+    .travel-product-filter.show-filter-toggle.disabled {
+        .wrapper-search-fields {
+            opacity: 1;
+            overflow: visible;
+            margin-top: 0;
+            z-index: 99999;
+        }
+    }
+    .filter-button-toggle-wp {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+.att-type-bgcolor {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+.elementor-widget-travel-productfilterselected {
+    .travel-product-filter-selection {
+        .list {
+            padding-left: 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            gap: 8px;
+            margin-bottom: 0;
+            &:empty {
+                display: none;
+            }
+            .list-item {
+                padding: 8px 12px;
+                border-radius: 6px;
+                border: 1px solid #000;
+                background: #fff;
+                display: inline-flex;
+                place-items: center;
+                vertical-align: middle;
+                .remove {
+                    margin-top: 4px;
+                    &:hover {
+                        color: #f00;
+                    }
+                }
+            }
+        }
+        .clear {
+            border: 0;
+            outline: 0;
+            padding: 0;
+        }
+    }
+}
+.travel-product-filter {
+    .tour-search-field {
+        position: relative;
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            padding-left: 0;
+            input {
+                margin-right: 6px;
+            }
+            label {
+                margin-bottom: 0;
+                padding-left: 0;
+            }
+        }
+    }
+    .tour-search-field.attribute-type-color {
+        label {
+            display: flex;
+            align-items: center;
+        }
+        input {
+            display: none;
+        }
+    }
+    .price {
+        .wrapper-content {
+            margin-bottom: 30px;
+        }
+        .reset {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .list-ranger-price {
+            display: flex;
+            margin-bottom: 16px;
+            justify-content: space-between;
+            .woocommerce-Price-amount {
+                padding: 14.45px 16px;
+                border-radius: 8px;
+                background: #f2f4f4;
+                display: inline-block;
+                position: relative;
+                margin-left: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.1;
+                min-width: 102px;
+                @media (max-width: 880px) and (min-width: 768px) {
+                    min-width: 65px;
+                }
+                .woocommerce-Price-currencySymbol {
+                    position: absolute;
+                    top: 50%;
+                    left: -20px;
+                    transform: translateY(-50%);
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .rating {
+        ul {
+            padding-left: 0;
+            li {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                input {
+                    margin-right: 6px;
+                }
+                .star {
+                    display: flex;
+                    align-items: center;
+                    .dashicons {
+                        color: #f9c64b;
+                    }
+                    i {
+                        color: #f9c64b;
+                    }
+                }
+            }
+        }
+    }
+}
+.travel-product-filter-selection.wrapper {
+    span {
+        cursor: pointer;
+    }
+}
+.tour-search-fields-close,
+.close-filter-product {
+    display: none;
+}
+.overlay-filter {
+    position: relative;
+    &::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+        transition: all 0.3s ease;
+    }
+}
+body {
+    .elementor-widget {
+        .travel-tooltip-offset-left {
+            .tooltip {
+                left: -28%;
+                right: auto;
+                bottom: 0;
+                transform: translate(-100%, -50%);
+                &::after {
+                    transform: rotate(137deg) translateX(-50%);
+                    position: absolute;
+                    left: auto;
+                    right: -1px;
+                    bottom: 24%;
+                    z-index: -1;
+                }
+            }
+        }
+        .travel-tooltip-offset-right {
+            .tooltip {
+                right: -28%;
+                left: auto;
+                top: 50%;
+                bottom: auto;
+                transform: translate(100%, -50%);
+                &::after {
+                    transform: rotate(137deg) translateX(50%);
+                    position: absolute;
+                    left: -1px;
+                    right: auto;
+                    bottom: 50%;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+.tour-search-field.selection {
+    ul {
+        padding: 0;
+        list-style: none;
+        li {
+            list-style: none;
+            width: auto;
+            display: inline-block;
+            .remove {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+.selection {
+    .list {
+        .list-item {
+            padding: 4px 8px;
+        }
+    }
+}
+@media (min-width: 767px) {
+    .elementor-widget-thim-ekits-search-tour {
+        .filter-button-toggle-wp.button-hidden-desktop {
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .elementor-widget-thim-ekits-search-tour {
+        .filter-button-toggle-wp.button-hidden-mobile {
+            display: none;
+        }
+    }
+    .elementor-widget-thim-ekits-search-tour {
+        .show-filter-toggle {
+            .wrapper-search-fields {
+                position: fixed !important;
+                top: 0 !important;
+                transition: all 0.3s ease !important;
+                margin-top: 0;
+                overflow: auto;
+                max-height: 100vh !important;
+                height: 100vh;
+                align-content: flex-start;
+                border-radius: 0;
+            }
+            .close-filter-product {
+                display: block;
+                margin-bottom: 20px;
+                &:hover {
+                    i {
+                        color: #f00;
+                    }
+                }
+            }
+            .tour-search-fields-close {
+                display: flex;
+                align-items: center;
+                svg path {
+                    stroke: #000;
+                }
+            }
+        }
+        .show-filter-toggle.disabled {
+            .wrapper-search-fields {
+                transform: translateX(0%) !important;
+                margin-top: 0 !important;
+            }
+        }
+    }
+    .elementor-widget-thim-ekits-search-tour.travel-filter-form-toggle-offset-right {
+        .show-filter-toggle {
+            .wrapper-search-fields {
+                right: 0 !important;
+                transform: translateX(1000%);
+            }
+        }
+    }
+    .elementor-widget-thim-ekits-search-tour.travel-filter-form-toggle-offset-left {
+        .show-filter-toggle {
+            .wrapper-search-fields {
+                left: 0 !important;
+                transform: translateX(-1000%);
+            }
+        }
+    }
+}
+.daterangepicker .drp-buttons .btn.applyBtn {
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 11px;
+    line-height: 1.4;
+    border-radius: 4px;
+    color: #fff;
+}

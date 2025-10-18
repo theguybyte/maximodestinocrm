@@ -1,0 +1,277 @@
+$font-family_1: WooCommerce;
+.elementor-widget-thim-ekits-tours-comment {
+    .woocommerce-Reviews {
+        .option {
+            position: relative;
+            .toggle {
+                position: relative;
+            }
+        }
+    }
+    #reviews #comments .commentlist {
+        padding: 0;
+        margin: 0;
+        // .review {
+        .comment_container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 24px;
+            border-radius: 8px;
+            background: #f2f4f4;
+            margin-bottom: 16px;
+            .avatar {
+                border-radius: 50%;
+                max-width: 90px;
+                position: static;
+            }
+            .comment-text {
+                margin: 0;
+                border: 0;
+                padding: 0;
+                border-radius: 0;
+                // .tour-review-title {
+                //     font-size: 1rem;
+                //     margin-bottom: 8px;
+                // }
+                .meta {
+                    // font-size: 0.875em;
+                    margin-bottom: 8px;
+                }
+                .description {
+                    margin-bottom: 24px;
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+                .tour-review-images {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        img {
+                            min-width: 100px;
+                        }
+                    }
+                }
+                .star-rating {
+                    float: left;
+                    &::before {
+                        color: #fc961b;
+                    }
+                    span {
+                        &::before {
+                            color: #fc961b;
+                        }
+                    }
+                }
+            }
+        }
+        // }
+    }
+    &:not(.thim-ekit-single-single-tours--show-avatar-yes) {
+        .avatar {
+            display: none;
+        }
+    }
+    #reviews {
+        ol.commentlist {
+            padding: 0;
+            margin: 0;
+        }
+        li.comment {
+            list-style: none;
+            margin: 0.5rem 0 2.5rem 0;
+            .avatar {
+                max-height: 36px;
+                width: auto;
+                float: right;
+            }
+            p.meta {
+                margin-bottom: 0.5em;
+            }
+        }
+        li.review {
+            list-style: none;
+            margin: 0.5rem 0 2.5rem 0;
+            .avatar {
+                max-height: 36px;
+                width: auto;
+                float: right;
+            }
+            p.meta {
+                margin-bottom: 0.5em;
+            }
+        }
+        .comment-form-rating {
+            label {
+                max-width: 58rem;
+                margin: 0 auto;
+            }
+        }
+        p.stars {
+            margin-top: 0;
+            a {
+                position: relative;
+                height: 1em;
+                width: 1em;
+                text-indent: -999em;
+                display: inline-block;
+                text-decoration: none;
+                box-shadow: none;
+                &::before {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 1em;
+                    height: 1em;
+                    line-height: 1;
+                    font-family: $font-family_1;
+                    content: "\e021";
+                    text-indent: 0;
+                }
+                &:hover ~ a {
+                    &::before {
+                        content: "\e021";
+                    }
+                }
+            }
+            &:hover {
+                a {
+                    &::before {
+                        content: "\e020";
+                    }
+                }
+            }
+        }
+        p.stars.selected {
+            a.active {
+                &::before {
+                    content: "\e020";
+                }
+            }
+            a.active ~ a {
+                &::before {
+                    content: "\e021";
+                }
+            }
+            a {
+                &:not(.active) {
+                    &::before {
+                        content: "\e020";
+                    }
+                }
+            }
+        }
+        .comment-form-author {
+            float: none;
+            margin-left: auto;
+        }
+        .comment-form-email {
+            float: none;
+            margin-left: auto;
+        }
+    }
+    .review-top-section {
+        #tour-add-new-review {
+            padding: 16px;
+            height: 44px;
+            border: 1px solid transparent;
+            background: $button_color;
+            line-height: 10px;
+            color: #fff;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                transform: translateY(-50%);
+            }
+        }
+        .statistic {
+            .statistic-general {
+                .average-rating {
+                    // font-size: 32px;
+                    font-weight: 700;
+                    color: #000;
+                    line-height: 1.4;
+                }
+                .rating {
+                    .star-rating {
+                        font-size: 1.25em;
+                    }
+                }
+            }
+        }
+    }
+    .woocommerce-pagination .next.page-numbers::before {
+        content: "\f105";
+    }
+    .woocommerce-pagination .prev.page-numbers::before {
+        content: "\f104";
+    }
+    .woocommerce-pagination .next.page-numbers::before,
+    .woocommerce-pagination .prev.page-numbers::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: thim-ekits !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        transform: translate(-50%, -50%);
+        color: var(--e-global-color-text);
+    }
+    .woocommerce-pagination .page-numbers {
+        cursor: pointer;
+    }
+}
+
+.woocommerce-pagination {
+    margin-top: 40px;
+    .page-numbers {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-right: 8px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            .page-numbers {
+                padding: 12px 15px;
+                border-radius: 200px;
+                min-width: 48px;
+                border: 1.5px solid transparent;
+                &:hover {
+                    background-color: $button_color_hover;
+                    color: #fff;
+                }
+                &.current {
+                    background-color: $button_color_hover;
+                    color: #fff;
+                }
+                &.prev,
+                &.next {
+                    border-color: $border_color;
+                    &:hover {
+                        background-color: $border_color;
+                    }
+                }
+            }
+        }
+    }
+}
