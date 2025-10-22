@@ -1,0 +1,67 @@
+#tour_booking_phys p.form-field:has(select[name="_product_currency"]) {
+    margin: 10px;
+    background: #f0f6ff;
+    padding: 5px 20px 5px 212px !important;
+    border: 2px solid #0066cc;
+    border-radius: 6px;
+    margin-bottom: 20px !important;
+}
+
+#tour_booking_phys p.form-field:has(select[name="_product_currency"]) label {
+    position: absolute;
+    top: 33px;
+    font-weight: 600;
+    color: #0066cc;
+    font-size: 14px;
+    display: block;
+    width: 100% !important;
+    margin-bottom: 10px;
+    float: none !important;
+}
+
+#tour_booking_phys select[name="_product_currency"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #0066cc;
+    border-radius: 4px;
+    margin-left: 0 !important;
+    display: block;
+    margin-top: 6px;
+}
+
+#tour_booking_phys p.form-field:has(select[name="_product_currency"]) .field-desc {
+    margin-top: 10px;
+    margin-left: 0 !important;
+    font-style: italic;
+    color: #555;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+#tour_booking_phys p.form-field:has(select[name="_product_currency"]) .field-desc i {
+    font-style: italic;
+}
+
+/* Hide Specific Tour Fields */
+#tour_booking_phys p.form-field:has(input[name="price_child"]),
+#tour_booking_phys p.form-field:has(input[name="tour_code"]),
+#tour_booking_phys p.form-field:has(input[name="tour_max_number_ticket_per_booking"]),
+#tour_booking_phys p.form-field:has(input[name="tour_min_number_ticket_per_booking"]),
+#tour_booking_phys p.form-field:has(input[name="tour_max_number_children_per_booking"]),
+#tour_booking_phys p.form-field:has(input[name="tour_min_number_children_per_booking"]) {
+    display: none !important;
+}
+
+/* Tabs in Woo */
+.panel-wrap.product_data ul.wc-tabs .phys_tour_infomations_options,
+.panel-wrap.product_data ul.wc-tabs .tour_variation_phys_tab,
+.panel-wrap.product_data ul.wc-tabs .phys_tour_group_discount_tab,
+.panel-wrap.product_data ul.wc-tabs .phys_tour_faq_tab,
+.panel-wrap.product_data ul.wc-tabs .phys_tour_infomations_options,
+.panel-wrap.product_data .attribute_options  {
+    display: none !important;
+}

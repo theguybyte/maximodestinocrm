@@ -52,8 +52,12 @@ class TravelPhysQuery {
 			$this->remove_tour_query();
 
 			return;
-		} elseif ( $q->get( 'tour_search' ) || is_tax( $taxonomy ) ) {
-			error_log("TOUR QUERY");
+		} elseif ( 
+			$q->get( 'tour_search' ) && 
+			($q->get( 'tour_search' ) || is_tax( $taxonomy ) || $q->get('location') || $q->get('transportation')) 
+		) {
+			//TODO: keep on eye on this line, possible issue
+			// error_log("TOUR QUERY");
 			$q = $this->query_for_tour( $q );
 
 			if ( $q->get( 'name_tour' ) ) {
@@ -84,6 +88,31 @@ class TravelPhysQuery {
 
 				$q->set( 'tax_query', $tax_query_attribute );
 			}
+
+
+			// ADD THIS BLOCK - Handle custom taxonomies
+			// This is not neccesary for the moment because WP is handling it automatically
+			// if ( $q->get( 'location' ) && $q->get( 'location' ) != '0' ) {
+			// 	$tax_query_attribute[] = array(
+			// 		'taxonomy' => 'location',
+			// 		'field'    => 'slug',
+			// 		'terms'    => array( $q->get( 'location' ) ),
+			// 		'operator' => 'IN',
+			// 	);
+			// }
+
+			// if ( $q->get( 'transportation' ) && $q->get( 'transportation' ) != '0' ) {
+			// 	$tax_query_attribute[] = array(
+			// 		'taxonomy' => 'transportation',
+			// 		'field'    => 'slug',
+			// 		'terms'    => array( $q->get( 'transportation' ) ),
+			// 		'operator' => 'IN',
+			// 	);
+			// }
+
+			// $q->set( 'tax_query', $tax_query_attribute );
+
+
 
 			//			$args['meta_query'] = $q->get( 'meta_query' );
 			$args                           = array();
@@ -267,7 +296,7 @@ class TravelPhysQuery {
 			);
 		}
 
-		error_log("END TOUR QUERY".print_r($q, true));
+		// error_log("END TOUR QUERY".print_r($q, true));
 
 		$this->remove_tour_query();
 	}
@@ -362,6 +391,7 @@ class TravelPhysQuery {
 		$q->is_post_type_archive = true;
 		$q->is_singular          = false;
 		$q->is_page              = false;
+		$q->is_tax               = false;
 
 		$this->tour_query_order( $q );
 
@@ -383,6 +413,9 @@ class TravelPhysQuery {
 		$vars[] = 'tour_min_price';
 		$vars[] = 'tour_max_price';
 		$vars[] = 'duration';
+
+		$vars[] = 'location';   
+		$vars[] = 'transportation'; 
 
 		return $vars;
 	}

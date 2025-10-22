@@ -1,5 +1,10 @@
 <?php
 
+// add_action('wp', function() {
+//     global $template;
+//     error_log('Template: ' . $template);
+// });
+
 class TravelWP_Filter_Form {
     
     public function __construct() {
@@ -38,7 +43,7 @@ class TravelWP_Filter_Form {
         // Lottie Player JS
         wp_enqueue_script(
             'lottie-player',
-            'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js',
+            'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js',
             [],
             '5.12.2',
             true
@@ -67,7 +72,7 @@ class TravelWP_Filter_Form {
             'locations' => $this->get_all_locations(),
             'transportations' => $this->get_all_transportations(),
             'strings' => [
-                'selectDestination' => __('Selecciona un destino...', 'travelwp-filters'),
+                'selectDestination' => __('Busca un destino...', 'travelwp-filters'),
                 'selectTransportation' => __('Selecciona transporte...', 'travelwp-filters'),
                 'anyDestination' => __('Cualquier destino', 'travelwp-filters'),
                 'anyTransportation' => __('Cualquier transporte', 'travelwp-filters'),
@@ -159,7 +164,7 @@ class TravelWP_Filter_Form {
         ?>
         <div class="travelwp-filter-form">
             <form id="travelwp-search-form" method="get" action="<?php echo esc_url(home_url('/')); ?>">
-                <input type="hidden" name="toursearch_custom" value="1">
+                <input type="hidden" name="tour_search" value="1">
                 
                 <div class="filter-row">
                     <div class="filter-col">
@@ -184,10 +189,16 @@ class TravelWP_Filter_Form {
                     
                     <div class="filter-col filter-btn-col">
                         <button type="submit" class="filter-search-btn">
-                            <span class="material-icons">search</span>
-                            <?php _e('Buscar', 'travelwp-filters'); ?>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g id="Icon/MagnifyingGlass">
+                                    <path id="Vector" d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path id="Vector_2" d="M16.4438 16.4437L21.0001 21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                            <span class="btn-text"><?php _e('Buscar', 'travelwp-filters'); ?></span>
                         </button>
                     </div>
+
                 </div>
             </form>
         </div>

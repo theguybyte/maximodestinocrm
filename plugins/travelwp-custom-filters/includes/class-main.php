@@ -11,6 +11,11 @@ class TravelWP_Custom_Filters {
     private $admin;
     private $test;
     private $template_loader; // NEW
+    private $page_title; // Add this property    
+    private $no_results; // Add property
+    private $currency_selector;
+    private $filter_widget; // Add property
+
     
     public function __construct() {
         $this->init_classes();
@@ -28,6 +33,10 @@ class TravelWP_Custom_Filters {
         $this->query_filter = new TravelWP_Query_Filter();
         $this->test = new TravelWP_Test();
         $this->template_loader = new TravelWP_Template_Loader(); // NEW
+        $this->page_title = new TravelWP_Page_Title(); // Add this line
+        $this->no_results = new TravelWP_No_Results(); // Add this
+        $this->currency_selector = new TravelWP_Currency_Selector();
+        $this->filter_widget = new TravelWP_Filter_Widget();
     }
     
     /**

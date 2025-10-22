@@ -30,6 +30,10 @@ require_once TRAVELWP_FILTERS_PATH . 'includes/class-test.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-filter-form.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-query-filter.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-template-loader.php'; // NEW
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-page-title.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-no-results.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-currency-selector.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-filter-widget.php';
 
 
 // Initialize plugin

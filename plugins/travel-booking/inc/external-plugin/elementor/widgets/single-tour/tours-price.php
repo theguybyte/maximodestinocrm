@@ -182,7 +182,7 @@ class Thim_Ekit_Widget_Tours_Price extends Widget_Base {
 		}
 
 		?>
-		<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'thim-ekit-single-tour__price price' ) ); ?>">
+		<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'thim-ekit-single-tour__price price test' ) ); ?>">
 			<?php
 			if ( ! empty( $settings['before_price'] ) ) {
 				echo '<span class="tour-before-price">' . $settings['before_price'] . '</span>';
