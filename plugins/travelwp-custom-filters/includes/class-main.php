@@ -15,6 +15,11 @@ class TravelWP_Custom_Filters {
     private $no_results; // Add property
     private $currency_selector;
     private $filter_widget; // Add property
+    private $download_links; // Add property
+    private $tour_label; // Add property
+    private $tour_duration;
+    private $tour_quotation;
+
 
     
     public function __construct() {
@@ -37,6 +42,10 @@ class TravelWP_Custom_Filters {
         $this->no_results = new TravelWP_No_Results(); // Add this
         $this->currency_selector = new TravelWP_Currency_Selector();
         $this->filter_widget = new TravelWP_Filter_Widget();
+        $this->download_links = new TravelWP_Download_Links();
+        $this->tour_label = new TravelWP_Tour_Label();
+        $this->tour_duration = new TravelWP_Tour_Duration();
+        $this->tour_quotation = new TravelWP_Tour_Quotation();
     }
     
     /**

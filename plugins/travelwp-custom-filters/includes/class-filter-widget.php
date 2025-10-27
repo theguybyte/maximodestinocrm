@@ -187,22 +187,22 @@ class TravelWP_Filter_Widget {
             width: 100%;
             height: 48px;
             padding: 0 20px;
-            background: linear-gradient(135deg, #00bfa5 0%, #00a08a 100%);
+            background: linear-gradient(135deg, #bc1115 0%, #7c0c0e 100%);
             color: white;
             border: none;
             border-radius: 200px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 12px rgba(0, 191, 165, 0.3);
+            box-shadow: 0 1px 3px rgba(161, 8, 60, 0.34);
             font-family: "Urbanist", Sans-serif;
             font-size: 15px;
             font-weight: 600;
         }
 
         .widget-search-btn:hover {
-            background: linear-gradient(135deg, #00a08a 0%, #008f7a 100%);
+            background: linear-gradient(135deg, #001d3a 0%, #003a73 100%);
             transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0, 191, 165, 0.4);
+            box-shadow: 0 1px 5px rgb(0 16 107);
         }
 
         .widget-search-btn:active {

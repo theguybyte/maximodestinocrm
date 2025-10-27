@@ -31,7 +31,8 @@ class TravelWP_Location_Taxonomy {
         $args = [
             'labels'            => $labels,
             'hierarchical'      => true,
-            'meta_box_cb'       => 'post_categories_meta_box',
+            // 'meta_box_cb'       => 'post_categories_meta_box',
+            'meta_box_cb'       => false,
             'public'            => true,
             'show_ui'           => true,
             'show_admin_column' => true,

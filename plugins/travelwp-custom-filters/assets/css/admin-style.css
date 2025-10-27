@@ -62,6 +62,7 @@
 .panel-wrap.product_data ul.wc-tabs .phys_tour_group_discount_tab,
 .panel-wrap.product_data ul.wc-tabs .phys_tour_faq_tab,
 .panel-wrap.product_data ul.wc-tabs .phys_tour_infomations_options,
+.panel-wrap.product_data ul.wc-tabs .phys_tour_dates_price_options,
 .panel-wrap.product_data .attribute_options  {
     display: none !important;
 }

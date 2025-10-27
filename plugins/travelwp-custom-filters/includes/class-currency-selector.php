@@ -284,15 +284,20 @@ class TravelWP_Currency_Selector {
         }
         
         $currency = $this->currencies[$currency_code];
+
+        error_log("PRICE DEBUG: {$price} | CODE: {$currency_code}");
         
         // Format based on currency
+        // if ($currency_code === 'USD') {
+        //     $formatted_price = 'USD ' . number_format((float)$price, 0, '', '.');
+        // } else {
+        //     $formatted_price = $currency['symbol'] . ' ' . number_format((float)$price, 0, '', '.');
+        // }
         if ($currency_code === 'USD') {
-            // USD 1,000.00 format
-            $formatted_price = 'USD ' . number_format((float)$price, 2, '.', ',');
+            $formatted_price = 'USD ' . str_replace(',', '.', $price);
         } else {
-            // $ 1.000,00 format (ARS)
-            $formatted_price = $currency['symbol'] . ' ' . number_format((float)$price, 2, ',', '.');
-        }
+            $formatted_price = $currency['symbol'] . ' ' . str_replace(',', '.', $price);
+        } 
         
         // Return formatted price wrapped in WooCommerce price span
         return '<span class="woocommerce-Price-amount amount">' . $formatted_price . '</span>';

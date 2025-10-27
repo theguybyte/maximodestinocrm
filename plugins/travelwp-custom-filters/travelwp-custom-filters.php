@@ -34,6 +34,10 @@ require_once TRAVELWP_FILTERS_PATH . 'includes/class-page-title.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-no-results.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-currency-selector.php';
 require_once TRAVELWP_FILTERS_PATH . 'includes/class-filter-widget.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-download-links.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-tour-label.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-tour-duration.php';
+require_once TRAVELWP_FILTERS_PATH . 'includes/class-tour-quotation.php';
 
 
 // Initialize plugin

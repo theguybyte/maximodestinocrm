@@ -29,6 +29,7 @@ class TravelWP_Transportation_Taxonomy {
         $args = [
             'labels'            => $labels,
             'hierarchical'      => true,
+            'meta_box_cb'       => false,
             'public'            => true,
             'show_ui'           => true,
             'show_admin_column' => true,
