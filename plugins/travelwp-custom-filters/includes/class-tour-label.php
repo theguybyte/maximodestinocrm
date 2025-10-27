@@ -20,7 +20,7 @@ class TravelWP_Tour_Label {
         ?>
         <style>
         .travelwp-tour-label {
-            background: #BC1115;
+            background: #001D3A;
             color: white;
             padding: 8px 20px;
             border-radius: 16px;
@@ -29,7 +29,7 @@ class TravelWP_Tour_Label {
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            box-shadow: 0 4px 12px rgba(188, 17, 21, 0.3);
+            box-shadow: 0 4px 12px #001d3a8c;
         }
 
         @media (max-width: 768px) {
