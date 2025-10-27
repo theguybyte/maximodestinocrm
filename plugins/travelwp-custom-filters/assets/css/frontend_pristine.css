@@ -1,0 +1,400 @@
+/* HACK ARCHIVE TAX (BUGFIX)*/
+
+body.archive.tax-tour_phys {
+    background: #fff !important;
+}
+
+body.archive.tax-tour_phys:hover {
+    opacity: 1;
+}
+
+/* HEADER - MENU  */ 
+
+.menu-item {
+    padding: 10px 0px;
+}
+
+.menu-item.agencias-desplegable {
+    background-color: #ab1017;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__icon {
+    right: 0.5rem;
+}
+
+.menu-item.agencias-desplegable > a,
+.menu-item.agencias-desplegable > a span i {
+    color: #fff !important;
+}
+
+#menu-menu-md.thim-ekits-menu__nav .agencias-desplegable .thim-ekits-menu__dropdown {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    right: 0px;
+    transition: all 0.2s ease-in;
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li {
+    background-color: #ab1017;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li a {
+    color: #fff;        
+    padding: 5px 10px;
+    display: block;
+    transition: color 0.2s ease;
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li:hover {
+    background-color: #c1121b;
+    transform: translateY(-2px);
+}
+
+.menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li:hover a {
+    color: #012141;
+    font-weight: bold;
+}
+
+/* MOBILE MENU */ 
+
+.thim-ekits-menu__mobile__overlay {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.thim-ekits-menu--mobile-open .menu-item {
+    padding: 5px 0px;
+}
+
+@media (max-width: 1024px) {
+    .thim-ekits-menu__icon {
+        padding: 8px 10px 0 !important;
+        right: 0;
+        top: 7px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #menu-menu-md .menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu {
+        position: absolute;
+        margin-top: 10px;
+    }
+    
+    #menu-menu-md .menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li {
+        margin: 0px 10px 10px 10px;
+        padding: 5px;
+    }
+    
+    #menu-menu-md .menu-item.agencias-desplegable .thim-ekits-menu__dropdown.sub-menu li:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+
+/* FOOTER  */ 
+
+.thim-ekit__footer #info-contact-md a svg {
+    filter: brightness(0) invert(1);
+}
+
+.thim-ekit__footer #info-contact-md a:hover {
+    color: #BC1115 !important;
+    transition: all 0.25s ease-in;
+}
+
+.thim-ekit__footer #info-contact-md a:hover svg {
+    filter: invert(17%) sepia(91%) saturate(7496%) hue-rotate(349deg) brightness(96%) contrast(101%);
+}
+
+.thim-ekit__footer #footer-bottom-md a {
+    color: white;
+}
+
+#thim-landing-tours-menu-tab-bottom .elementor-button-content-wrapper .elementor-button-icon svg path {
+    stroke: white !important;
+}
+
+/* IG FEED */ 
+
+#ig-feed-md .sbi_feedtheme_header_text h3 {
+    color: #fff;
+}
+
+body #ig-feed-md #sb_instagram .sbi_photo {
+   height: inherit !important;
+}
+
+
+
+/* ========================================
+   BANK ACCOUNTS & CREDIT CARDS - CUSTOM CSS
+   ======================================== */
+
+/* Zigzag Divider Styles */
+.zigzag-divider {
+  width: 30%;
+  height: 10px;
+  margin: 25px auto;
+  position: relative;
+}
+
+.zigzag-divider.sky {
+  background: linear-gradient(135deg, #87CEEB 25%, transparent 25%),
+              linear-gradient(225deg, #87CEEB 25%, transparent 25%),
+              linear-gradient(45deg, #87CEEB 25%, transparent 25%),
+              linear-gradient(315deg, #87CEEB 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 0, 10px -10px, 0 -10px;
+}
+
+.zigzag-divider.red {
+  background: linear-gradient(135deg, #ab1017 25%, transparent 25%),
+              linear-gradient(225deg, #ab1017 25%, transparent 25%),
+              linear-gradient(45deg, #ab1017 25%, transparent 25%),
+              linear-gradient(315deg, #ab1017 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 0, 10px -10px, 0 -10px;
+}
+
+/* Section Bank Accounts */
+.section-bank-accounts {
+  margin-bottom: 80px !important;
+}
+
+.row-bank-accounts .elementor-column {
+  margin-bottom: 20px;
+}
+
+/* Bank Account Text Styling */
+.bank-account-info p {
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+.bank-account-info strong {
+  color: #1e2445;
+  font-weight: 600;
+}
+
+/* Section Credit Cards */
+.section-credit-cards {
+  padding: 40px 0;
+}
+
+.credit-card-grid .elementor-column {
+  margin-bottom: 20px;
+}
+
+.credit-card-grid img {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.credit-card-grid img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Holder Information Box */
+.holder-info {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.holder-info p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1e2445;
+  margin: 10px 0;
+}
+
+/* Payment Instructions */
+.payment-instructions {
+  text-align: center;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.payment-instructions strong {
+  color: #ab1017;
+}
+
+/* Cheques Communication Box */
+.cheques-notice {
+  background: #fff9e6;
+  padding: 30px;
+  border-left: 5px solid #ab1017;
+  margin: 30px 0;
+}
+
+.cheques-notice h3 {
+  color: #1e2445;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Cancellation Policies */
+.cancellation-policies {
+  margin: 40px 80px;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.cancellation-policies h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #1e2445;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.cancellation-policies h4 {
+  font-weight: bold;
+  color: #ab1017;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.cancellation-policies p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.cancellation-policies strong {
+  color: #1e2445;
+}
+
+/* Button Styling */
+.elementor-button.carta-responsabilidad {
+  background-color: #ab1017;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.elementor-button.carta-responsabilidad:hover {
+  background-color: #8a0d12;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(171, 16, 23, 0.3);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cancellation-policies {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .zigzag-divider {
+    width: 50%;
+  }
+  
+  .row-bank-accounts .elementor-column {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cancellation-policies {
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .holder-info {
+    padding: 15px;
+  }
+  
+  .cancellation-policies h3 {
+    font-size: 20px;
+  }
+  
+  .cancellation-policies h4 {
+    font-size: 16px;
+  }
+}
+
+/* SINGLE PRODUCT  */
+
+.content-widget-social-share .clipboard-post {
+    display: none !important;
+}
+
+/* CF 7 - SINGLE PRODUCT */
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 20px 0;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+/* Success message */
+.wpcf7 form.sent .wpcf7-response-output {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: #ffffff;
+    border-left: 4px solid #047857;
+}
+
+.wpcf7 form.sent .wpcf7-response-output::before {
+    content: "✓ ";
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Error/Invalid message */
+.wpcf7 form.invalid .wpcf7-response-output {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: #ffffff;
+    border-left: 4px solid #b91c1c;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output::before {
+    content: "✕ ";
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.wpcf7 form .wpcf7-response-output:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+.thim-ekit-wpcf7 .form-contact-wp .wpcf7-spinner {
+    position: relative;
+	margin: 0 auto;
+}
+
+/* PAGES */
+
+body.page-template .thim-ekit-breadcrumb,
+body.page-template-default .breadcrumbs-wrapper {
+ display: none;
+}
