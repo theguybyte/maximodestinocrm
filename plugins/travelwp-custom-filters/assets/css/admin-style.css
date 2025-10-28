@@ -20,6 +20,7 @@
 }
 
 #tour_booking_phys select[name="_product_currency"] {
+    position: relative;
     width: 100%;
     max-width: 300px;
     padding: 8px 12px;
