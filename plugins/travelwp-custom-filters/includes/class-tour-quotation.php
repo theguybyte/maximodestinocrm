@@ -41,7 +41,7 @@ class TravelWP_Tour_Quotation {
         $value_quotation = get_field('value_quotation', $page->ID);
         
         // Validate data
-        if (empty($date_quotation) || empty($value_quotation)) {
+        if (empty($date_quotation)) {
             wp_send_json_error([
                 'message' => 'Datos de cotización no disponibles'
             ]);
@@ -51,13 +51,13 @@ class TravelWP_Tour_Quotation {
         $formatted_date = $this->format_quotation_date($date_quotation);
         
         // Format the value with proper number formatting
-        $formatted_value = $this->format_quotation_value($value_quotation);
+        // $formatted_value = $this->format_quotation_value($value_quotation);
         
         // Build the quotation text
         $quotation_text = sprintf(
             'Cotización al día %s - 1U$D = $%s',
             $formatted_date,
-            $formatted_value
+            $value_quotation
         );
         
         // Return success response
